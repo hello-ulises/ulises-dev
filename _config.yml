@@ -1,0 +1,119 @@
+# Ulises.us Jekyll Config
+#
+# bundle exec jekyll [command]
+
+# includes settings for:
+#  - prose.io
+#  - minimagick  
+
+# Site settings
+
+title: ULISES
+email: hello@ulises.us
+description: >
+    Ulises / Books / Curation
+baseurl: ""
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  hello-ulises
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+incremental: false
+
+gems:
+    - jekyll-feed
+    - jemoji
+    - jekyll-minimagick
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - package.json
+    - package-lock.json
+    - vendor
+    - .asset-cache
+    - .bundle
+    - .jekyll-assets-cache
+    - .sass-cache
+    - gulpfile.js
+    - node_modules
+    - README.md
+    - components
+
+encoding: "utf-8"
+markdown_ext: "md"
+
+kramdown:
+    input: GFM
+    hard_wrap: false
+    smart_quotes: lsquo,rsquo,ldquo,rdquo
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+mini_magick:
+  resize:
+    source: assets/img
+    destination: assets/img
+    resize: "600x>"
+
+prose:
+  rooturl: '_posts'
+  media: 'assets/img'
+  ignore:
+    - index.md
+    - _config.yml
+    - /_layouts
+    - /_includes
+  metadata:
+    _posts:
+      - name: "title"
+        field:
+          element: "text"
+          placeholder: "enter post title"
+          help: This will appear as the post title
+          label: "title"
+      - name: "date"
+        field:
+          element: "text"
+          help: Date of post affects in which order posts appear
+          value: CURRENT_DATETIME
+      - name: "event_date"
+        field:
+          element: "text"
+          help: If applicable, enter date and time of event as it should appear in the text of the post
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "categories"
+        field:
+          element: "select"
+          label: "column"
+          placeholder: "choose column"
+          options:
+            - name: "left"
+              value: "left"
+            - name: "right"
+              value: "right"
+      - name: "tags"
+        field:
+          element: "multiselect"
+          label: "tags"
+          placeholder: "choose or add tags"
+          alterable: true
+          options:
+            - name: "sticky"
+              value: "sticky"
+            - name: "active-voice"
+              value: "active-voice"
+            - name: "intimacy"
+              value: "intimacy"
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "published"
+          help: Check if you'd like to see this post published to the public site
+          value: false

@@ -1,0 +1,29 @@
+# config.yml
+backend:
+  name: github
+  repo: hello-ulises/ulises.us
+  branch: main
+  site_domain: pedantic-heyrovsky-2f6199.netlify.app
+
+media_folder: assets/img
+site_url: http://ulises.us
+display_url: http://ulises.us
+logo_url: https://avatars.githubusercontent.com/u/23337776?s=200&v=4
+locale: en
+
+collections:
+  - name: 'posts'
+    label: 'Posts'
+    label_singular: 'Post'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string', description: 'This will appear as the post title' }
+      - { name: 'date', label: 'Date', widget: 'datetime', description: 'Date of post affects in which order posts appear', date_format: "YYYY-MM-DD" }
+      - { name: 'event_date', label: 'Event Date', widget: 'string', description: 'If applicable, enter date and time of event as it should appear in the text of the post', required: false }
+      - { name: 'layout', label: 'Layout', widget: 'hidden', default: 'post' }
+      - { name: 'categories', label: 'Column', widget: 'select', options: ["left", "right"], required: false }
+      - { name: 'tags', label: 'Tags', widget: 'select', multiple: true, options: ['sticky','active-voice','intimacy'], required: false }
+      - { name: 'published', label: 'Published', widget: 'boolean', default: true}
+      - { name: 'body', label: 'Body', widget: 'markdown'}

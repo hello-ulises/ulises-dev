@@ -1,0 +1,35 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the site in the jekyll/builder container
+      run: |
+        docker run \
+        -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+        jekyll/builder:latest /bin/bash -c "apk update && apk add graphicsmagick && chmod -R 777 /srv/jekyll && jekyll build"
+    - name: Rsync Deployments Action
+      # You may pin to the exact commit or the version.
+      # uses: Burnett01/rsync-deployments@2651e3eecb4ea772cbe952695d04952e92027b4f
+      uses: Burnett01/rsync-deployments@5.2.1
+      with:
+        # The switches
+        switches: -r --delete-after
+        # The local path
+        path: _site/ 
+        # The remote path
+        remote_path: ~/www/
+        # The remote host
+        remote_host: ulises.us
+        # The remote user
+        remote_user: ulisesus
+        # The remote key
+        remote_key: ${{ secrets.GREENGEEKS_KEY }}

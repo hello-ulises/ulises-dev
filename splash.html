@@ -1,0 +1,46 @@
+---
+
+layout: default
+id: splash
+
+---
+
+{% assign p1 = "publishing as<br/>practice:" %}
+{% assign p2 = "a three part<br/>publishing residency" %}
+
+<a href="/landing">
+
+<p id="hw">
+hardworking<br/>goodlooking
+</p>
+
+<p id="bd">
+bedouin
+</p>
+
+<p id="ms">
+martine syms
+</p>
+
+<div class="scroll-wrapper">
+<div class="col-1">
+
+{% for i in (1..200) %}
+
+<span>{{ p1 }}</span>
+
+{% endfor %}
+
+</div>
+
+<div class="col-2">
+
+{% for i in (1..200) %}
+
+<span>{{ p2 }}</span>
+
+{% endfor %}
+
+</div>
+</div>
+</a>

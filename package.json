@@ -1,0 +1,31 @@
+{
+  "name": "ulises.us",
+  "version": "0.0.1",
+  "description": "ulises.us",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bulbil/ulises.us.git"
+  },
+  "author": "bulbil",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "browserify": "^13.1.1",
+    "gulp": "^4.0.2",
+    "gulp-jshint": "^2.0.4",
+    "gulp-uglify": "^2.0.0",
+    "object-path": ">=0.11.8",
+    "perfect-scrollbar": "^1.4.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "dependencies": {
+    "jshint": "^2.10.2",
+    "lodash": "^4.17.21",
+    "onchange": "^4.1.0"
+  },
+  "scripts": {
+    "uglify": "uglifyjs components/main.js -c -m -o assets/js/main.min.js",
+    "watch:js": "onchange \"components/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
+    "build:js": "npx browserify components/main.js | uglifyjs > assets/js/main.min.js"
+  }
+}

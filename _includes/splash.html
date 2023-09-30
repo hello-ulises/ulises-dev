@@ -1,0 +1,45 @@
+<div class="splash-panel">
+
+{% assign p1 = "publishing as<br/>practice:" %}
+{% assign p2 = "a three part<br/>publishing residency" %}
+
+<a id="splash-body-anchor" class="default" href="" data-target="splash-panel">
+
+<div class="residents">
+<p id="hw">
+hardworking<br/>goodlooking
+</p>
+
+<p id="ms">
+martine syms <span>/</span><br/> dominica
+</p>
+
+<p id="bd">
+bidoun
+</p>
+</div>
+
+<div class="scroll-wrapper">
+<div class="col-1">
+
+{% for i in (1..200) %}
+
+<span>{{ p1 }}</span>
+
+{% endfor %}
+
+</div>
+
+<div class="col-2">
+
+{% for i in (1..200) %}
+
+<span>{{ p2 }}</span>
+
+{% endfor %}
+
+</div>
+</div>
+</a>
+
+</div>
