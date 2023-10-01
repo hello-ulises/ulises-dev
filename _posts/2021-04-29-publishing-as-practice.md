@@ -1,6 +1,6 @@
 ---
 title: Publishing As Practice
-date: 2019-12-01 21:48 -0500
+date: "2019-12-01T21:48-0500"
 event_date: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun
 layout: post
 categories: left
@@ -33,13 +33,3 @@ This book documents a residency program at Ulises—a curatorial platform based 
 Hardworking Goodlooking is a design and publishing imprint working primarily out of the Philippines. Dominica is an imprint run by artist Martine Syms dedicated to exploring Blackness as a topic, reference, marker, and audience in visual culture. Bidoun, a non-profit organization and magazine, focuses on art and culture from the Middle East and its diasporas. Each organization approached their residency at Ulises in a unique way, bringing a new understanding of what it means to practice publishing.
 
 Edited by Kayla Romberger, Gee Wesley, Nerissa Cooney, Lauren Downing, and Ricky Yanas, _Publishing as Practice_ features a preface by David Senior, Head of Library and Archives at the San Francisco Museum of Modern Art, and Ulises Carrión’s 1975 publishing manifesto “The New Art of Making Books.” _Publishing as Practice_ also includes writing from Clara Balaguer, Hardworking Goodlooking, Martine Syms/Dominica, Bidoun, Lauren Downing, Kayla Romberger, and Gee Wesley alongside interviews, excerpts, and documentation from each residency.
-
-{% comment %}
-
-Publishing As Practice, a three-part publisher residency designed to explore publishing as an incubator for new forms of editorial, curatorial, and artistic practice. Three experimental art publishers activated Ulises from 2017-19 as an exhibition space and public programming hub, engaging the public through workshops, discussions, and projects.
-
-Residents included [Hardworking Goodlooking](https://www.instagram.com/hardworkinggoodlooking/?hl=en), the publishing arm of Philippines-based, social practice platform The Office of Culture and Design; [Dominica](https://dominica.la/), an imprint run by Martine Syms dedicated to exploring blackness as a topic, reference, marker and audience in visual culture; and [Bidoun](https://www.bidoun.org/), a non-profit organization focused on art and culture from the Middle East and its diasporas.
-
-[ORDER NOW](https://ulises.pmvabf.org/) _Publishing As Practice: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun_
-
-{% endcomment %}

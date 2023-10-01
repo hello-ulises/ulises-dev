@@ -1,13 +1,14 @@
 ---
 layout: post
-date: '2018-01-20 12:56 -0500'
+date: "2018-01-20T12:56-0500"
 published: true
 title: '"I guess I’m never sure that print is truly linear."'
 categories: left
-event_date: 'Saturday, January 27, 2–3:30PM'
+event_date: "Saturday, January 27, 2–3:30PM"
 tags:
   - education
 ---
+
 ![26805024_1601924936557735_4792805289535588420_n.jpg]({{site.baseurl}}/assets/img/26805024_1601924936557735_4792805289535588420_n.jpg)
 
 Join us for the launch of "Muriel Cooper" by David Reinfurt and Robert Wiesenberger along with a lively discussion between author David Reinfert, designer Mark Owens, and Katie Reilly, William T. Ranney Director of Publishing at Philadelphia Museum of Art. [RSVP](https://www.facebook.com/events/191290224948844/?notif_t=plan_user_joined&notif_id=1516459366897379)
@@ -20,4 +21,4 @@ Muriel Cooper (1925–1994) was the pioneering designer who created the iconic M
 
 [David Reinfurt](http://arts.princeton.edu/people/profiles/reinfurt/) is 1/2 of [Dexter Sinister](http://www.dextersinister.org/), 1/4 of [The Serving Library](http://www.servinglibrary.org/), and 1/1 of [O-R-G inc](http://www.o-r-g.com/). Dexter Sinister started as a small workshop on the lower east side of Manhattan and has since branched pragmatically into projects with and for contemporary art institutions. The Serving Library publishes a semi-annual journal, maintains a physical collection, and circulates PDF texts through its website. O-R-G is a small software company. David currently teaches at Princeton University and his work is included in the permanent collections of Cooper Hewitt National Design Museum, Museum of Modern Art, Walker Art Center, and the Whitney Museum of American Art. David is the 2016-2017 Mark Hampton Rome Prize fellow.
 
-Katie Riley is the current William T. Ranney Director of Publishing at Philadelphia Museum. Before coming to Philadelphia she held positions as Director of Publications at the Carnegie Museum in Pittsburg, and Editor of Scholarly Publications at the Art Institue of Chicago. 
+Katie Riley is the current William T. Ranney Director of Publishing at Philadelphia Museum. Before coming to Philadelphia she held positions as Director of Publications at the Carnegie Museum in Pittsburg, and Editor of Scholarly Publications at the Art Institue of Chicago.

@@ -1,13 +1,14 @@
 ---
 layout: post
-date: '2018-02-04 17:11 -0500'
+date: "2018-02-04T17:11-0500"
 published: true
 title: POSTPONED DUE TO EAGLES VICTORY PARADE! Ways of Being with BFAMFAPhD
 categories: left
-event_date: 'Thursday, February 8'
+event_date: "Thursday, February 8"
 tags:
   - education
 ---
+
 ![PastedGraphic-1.png]({{site.baseurl}}/assets/img/PastedGraphic-1.png)
 
 Support Workshop: 1:30-4:00pm at the ICA
@@ -16,7 +17,7 @@ Risograph Workshop: 4:30-6:00pm at the ICA
 
 [Please RSVP](https://www.facebook.com/events/1591081160970349/)
 
-How can we support ourselves and each other? This workshop looks at the ways in which we meet our needs for wellbeing in order to dream, practice, and work on any project. Support extends beyond the life of our projects, often shaping the ways in which we navigate the contradictions of living and working on independent projects. Join us for an attunement, discussion, and mutual connection from 1:30-4:00pm and for a Risograph workshop feature an excerpt from our forthcoming book from 4:30-6:00pm. 
+How can we support ourselves and each other? This workshop looks at the ways in which we meet our needs for wellbeing in order to dream, practice, and work on any project. Support extends beyond the life of our projects, often shaping the ways in which we navigate the contradictions of living and working on independent projects. Join us for an attunement, discussion, and mutual connection from 1:30-4:00pm and for a Risograph workshop feature an excerpt from our forthcoming book from 4:30-6:00pm.
 
 This workshop will be led by [BFAMFAPhD](http://bfamfaphd.com) collective members [Susan Jahoda](http://www.susanjahoda.com/), [Emilio Martinez Poppe](http://www.emilio.click/), and [Caroline Woolard](http://carolinewoolard.com/). The workshop comes from the collective BFAMFAPhD's pedagogical project, "Ways of Being." We invite people from all backgrounds and identities to participate in our programming. This is a LGBTQIA friendly space.
 

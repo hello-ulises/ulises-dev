@@ -1,10 +1,11 @@
 ---
 title: Martine Syms/Dominica
-date: 2018-07-16 21:13 -0400
+date: "2018-07-16T21:13-0400"
 layout: post
 categories: left
 published: true
 ---
+
 July 22–November 4, 2018
 
 ![2018_Martine_Syms_Dominica_Ulises_W-6.jpg]({{site.baseurl}}/assets/img/2018_Martine_Syms_Dominica_Ulises_W-6.jpg)

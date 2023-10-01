@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: " en" }}">
+
+{% include "head.html" %}
+
+<body>
+
+    <div class="main-wrapper" {% if page.id !=null %}id={{ page.id }}{% endif %}>{{ content }}</div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+        </script>
+    <script src="assets/js/main.min.js?v=1.0"></script>
+
+</body>
+
+</html>

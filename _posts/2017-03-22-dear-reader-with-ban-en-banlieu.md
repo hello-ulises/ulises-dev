@@ -1,15 +1,15 @@
 ---
 layout: post
-date: '2017-03-22 23:08 -0400'
+date: "2017-03-22T23:08-0400"
 published: true
 title: 'Dear Reader: "Ban en Banlieue"'
 categories: left
 tags:
   - intimacy
-event_date: 'Tuesday, March 28, 2017, 6:30PM – 8:30PM'
+event_date: "Tuesday, March 28, 2017, 6:30PM – 8:30PM"
 ---
-![Ban1.jpg]({{site.baseurl}}/assets/img/Ban1.jpg)
 
+![Ban1.jpg]({{site.baseurl}}/assets/img/Ban1.jpg)
 
 "Will you give a hand to Ban? Do you have a sentiment, do you have class? Let me tell you before you extend yourself that Ban is disgusting. Let me tell you that Ban is a difficult person to love, full of transience. I could tell you things about Ban."
 

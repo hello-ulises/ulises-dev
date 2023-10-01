@@ -1,11 +1,12 @@
 ---
 layout: post
-date: '2019-09-19 12:32 -0400'
+date: "2019-09-19T12:32-0400"
 published: true
 title: NY Art Book Fair
 categories: left
-event_date: 'September 19–22, 2019'
+event_date: "September 19–22, 2019"
 ---
+
 ![IMG_3634.jpg]({{site.baseurl}}/assets/img/IMG_3634.jpg)
 
 Ulises Location: N37 (2nd Floor)

@@ -1,7 +1,7 @@
 ---
 layout: post
-date: '2016-12-18 17:43 -0500'
-event_date: 'Sunday, December 18, 2016, 4PM'
+date: "2016-12-18T17:43-0500"
+event_date: "Sunday, December 18, 2016, 4PM"
 published: true
 title: Screen Time with Hannah Black
 categories: left

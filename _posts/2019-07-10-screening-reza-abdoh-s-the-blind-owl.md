@@ -1,16 +1,17 @@
 ---
 layout: post
-date: '2019-07-10 10:52 -0400'
+date: "2019-07-10T10:52-0400"
 published: true
-title: 'Screening: Reza Abdoh''s The Blind Owl'
+title: "Screening: Reza Abdoh's The Blind Owl"
 categories: left
-event_date: ' Thursday, July 18, 6–8 PM'
+event_date: " Thursday, July 18, 6–8 PM"
 ---
+
 ![The Blind Owl Still with Ron Athey.jpg]({{site.baseurl}}/assets/img/The Blind Owl Still with Ron Athey.jpg)
 
 "The Blind Owl" Still with Ron Athey
 
-Please join us for a screening of Reza Abdoh's "The Blind Owl" along with an introduction by Bidoun Senior Editor Michael C. Vazquez. This will be the final program presented by Bidoun in conjunction with Publishing As Practice, an experimental publisher-in-residence project hosted by Ulises and funded by the Pew Center for Arts & Heritage. 
+Please join us for a screening of Reza Abdoh's "The Blind Owl" along with an introduction by Bidoun Senior Editor Michael C. Vazquez. This will be the final program presented by Bidoun in conjunction with Publishing As Practice, an experimental publisher-in-residence project hosted by Ulises and funded by the Pew Center for Arts & Heritage.
 
 Reza Abdoh was celebrated for his immersive and maximalist theatre productions, which drew on Greek myth, cable television, BDSM and fairy tales, and made use of unusual urban spaces and audio-visual media. Yet had Abdoh not passed away at the too-young age of thirty-two, he almost certainly would have become a filmmaker of renown.
 

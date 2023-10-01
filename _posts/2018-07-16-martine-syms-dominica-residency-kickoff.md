@@ -1,11 +1,12 @@
 ---
 layout: post
-date: '2018-07-16 20:59 -0400'
+date: "2018-07-16T20:59-0400"
 published: true
 title: Martine Syms/Dominica Residency Kickoff
 categories: left
-event_date: 'Sunday, July 22, 2–6pm'
+event_date: "Sunday, July 22, 2–6pm"
 ---
+
 ![]({{site.baseurl}}/assets/img/11_SYMS_Notes-On-Gesture%20183.jpg)
 Martine Syms, still from "Notes on Gesture," 2015
 
