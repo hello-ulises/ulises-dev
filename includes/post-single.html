@@ -1,0 +1,20 @@
+<article class="post {% if post.data.tags contains 'mobile-only' %}mobile-only{% endif %}" itemscope
+  itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+
+    <span class="post-title" itemprop="name headline">{{ post.data.title | prepend: "## " | markdownify }}</span>
+
+    <!-- todo: add post link here when single post view designed  -->
+
+    {% if post.data.event_date %}
+    {{ post.event_date | prepend: "<p>" | append: "</p>" }}
+    {% endif %}
+
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {{ post.content}}
+  </div>
+
+</article>
