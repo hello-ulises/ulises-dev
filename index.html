@@ -3,16 +3,15 @@ layout: default
 id: splash
 ---
 
-
-{% assign postsLeft = site.posts | where: 'categories', 'left' %}
-{% assign postsRight = site.posts | where: 'categories', 'right' %}
+{% assign postsLeft = collections.post | byCategory: 'left' %}
+{% assign postsRight = collections.post | byCategory: 'right' %}
 
 <div class="column typeset column--left" id="left">
 
     <header class="site-header left" role="banner">
-        {% for i in (1 .. 2) %}
+        {% for i in (1..2) %}
         <div class="title-stack">
-            {% for i in (1 .. 3) %}
+            {% for i in (1..3) %}
             <a class="site-title" href="/">
                 <h4>ulises<span>.us</span></h4>
             </a>
@@ -21,14 +20,14 @@ id: splash
         {% endfor %}
     </header>
 
-    {% for post in postsLeft %}
-    {% if post.tags contains 'sticky' %}
+    {% for post in postsLeft reversed %}
+    {% if post.data.tags contains 'sticky' %}
     {% include "post-single.html" %}
     {% endif %}
     {% endfor %}
 
-    {% for post in postsLeft %}
-    {% unless post.tags contains 'sticky' %}
+    {% for post in postsLeft reversed %}
+    {% unless post.data.tags contains 'sticky' %}
     {% include "post-single.html" %}
     {% endunless %}
     {% endfor %}
@@ -36,17 +35,16 @@ id: splash
 </div>
 
 <div class="column typeset column--right" id="right">
-
     {% include "header.html" %}
 
-    {% for post in postsRight %}
-    {% if post.tags contains 'sticky' %}
+    {% for post in postsRight reversed %}
+    {% if post.data.tags contains 'sticky' %}
     {% include "post-single.html" %}
     {% endif %}
     {% endfor %}
 
-    {% for post in postsRight %}
-    {% unless post.tags contains 'sticky' %}
+    {% for post in postsRight reversed %}
+    {% unless post.data.tags contains 'sticky' %}
     {% include "post-single.html" %}
     {% endunless %}
     {% endfor %}

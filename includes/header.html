@@ -20,8 +20,7 @@
 
                     </div>
 
-                    {% assign info = site.posts | where: 'tags', 'info' %}
-
+                    {% assign info = collections.info %}
                     {{ info[0].content }}
 
                     <!-- Begin MailChimp Signup Form -->

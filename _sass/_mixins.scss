@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/// Sets the relative width of a single grid column. The unit used should be the same one used to define `$gutter`. Set with a `!global` flag.
+///
+/// @type Number (Unit)
+
+$column: 4.2358em !default;
+
+/// Sets the relative width of a single grid gutter. The unit used should be the same one used to define `$column`. Set with the `!global` flag.
+///
+/// @type Number (Unit)
+
+$gutter: 0em !default;
+
+/// Sets the total number of columns in the grid. Its value can be overridden inside a media query using the `media()` mixin. Set with the `!global` flag.
+///
+/// @type Number (Unitless)
+
+$grid-columns: 12 !default;
+
+/// Sets the max-width property of the element that includes `outer-container()`. Set with the `!global` flag.
+///
+/// @type Number (Unit)
+///
+$max-width: 1200px !default;
+
+/// When set to true, it sets the box-sizing property of all elements to `border-box`. Set with a `!global` flag.
+///
+/// @type Bool
+///
+/// @example css - CSS Output
+///   html {
+///     box-sizing: border-box; }
+///
+///   *, *::after, *::before {
+///     box-sizing: inherit;
+///   }
+
+$border-box-sizing: true !default;
+
+/// Sets the default [media feature](http://www.w3.org/TR/css3-mediaqueries/#media) that `media()` and `new-breakpoint()` revert to when only a breakpoint value is passed. Set with a `!global` flag.
+///
+/// @type String
+
+$default-feature: min-width; // Default @media feature for the breakpoint() mixin
+
+///Sets the default layout direction of the grid. Can be `LTR` or `RTL`. Set with a `!global` flag.
+///
+///@type String
+
+$default-layout-direction: LTR !default;
+
+$layout-direction: LTR !global;
+$default-layout-direction: LTR !global;
+$container-display-table: false !global;
+
+@mixin outer-container($local-max-width: $max-width) {
+  @include clearfix;
+  max-width: $local-max-width;
+  margin: {
+    left: auto;
+    right: auto;
+  }
+}
+
+// Parses the first argument of span-columns()
+@function container-span($span: $span) {
+  @if length($span) == 3 {
+    $container-columns: nth($span, 3);
+    @return $container-columns;
+  } @else if length($span) == 2 {
+    $container-columns: nth($span, 2);
+    @return $container-columns;
+  }
+
+  @return $grid-columns;
+}
+
+@mixin span-columns($span: $columns of $container-columns, $display: block) {
+  $columns: nth($span, 1);
+  $container-columns: container-span($span);
+
+  $parent-columns: get-parent-columns($container-columns) !global;
+
+  $direction: get-direction($layout-direction, $default-layout-direction);
+  $opposite-direction: get-opposite-direction($direction);
+
+  $display-table: is-display-table($container-display-table, $display);
+
+  @if $display-table {
+    display: table-cell;
+    width: percentage($columns / $container-columns);
+  } @else {
+    float: #{$opposite-direction};
+
+    @if $display != no-display {
+      display: block;
+    }
+
+    @if $display == collapse {
+      @include -neat-warn(
+        "The 'collapse' argument will be deprecated. Use 'block-collapse' instead."
+      );
+    }
+
+    @if $display == collapse or $display == block-collapse {
+      width: flex-grid($columns, $container-columns) +
+        flex-gutter($container-columns);
+
+      &:last-child {
+        width: flex-grid($columns, $container-columns);
+      }
+    } @else {
+      margin-#{$direction}: flex-gutter($container-columns);
+      width: flex-grid($columns, $container-columns);
+
+      &:last-child {
+        margin-#{$direction}: 0;
+      }
+    }
+  }
+}
