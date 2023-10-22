@@ -15,7 +15,6 @@ jobs:
         with:
           node-version: 18
       - run: |
-          docker run \
           npm install \
           npm run eleventy
       - name: Rsync Deployments Action
