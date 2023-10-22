@@ -22,7 +22,7 @@ jobs:
         uses: Burnett01/rsync-deployments@6.0.0
         with:
           # The switches
-          switches: -r --delete-after
+          switches: -r --exclude .htaccess --exclude .htpasswd --delete-after
           # The local path
           path: _site/
           # The remote path
