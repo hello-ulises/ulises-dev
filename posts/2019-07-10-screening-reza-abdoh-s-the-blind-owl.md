@@ -7,7 +7,7 @@ categories: left
 event_date: " Thursday, July 18, 6–8 PM"
 ---
 
-![The Blind Owl Still with Ron Athey.jpg]({{site.baseurl}}/assets/img/The Blind Owl Still with Ron Athey.jpg)
+![]({{site.baseurl}}/assets/img/The-Blind-Owl-Still-with-Ron-Athey.jpg)
 
 "The Blind Owl" Still with Ron Athey
 

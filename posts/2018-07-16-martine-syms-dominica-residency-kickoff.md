@@ -7,7 +7,7 @@ categories: left
 event_date: "Sunday, July 22, 2–6pm"
 ---
 
-![]({{site.baseurl}}/assets/img/11_SYMS_Notes-On-Gesture%20183.jpg)
+![]({{site.baseurl}}/assets/img/11_SYMS_Notes-On-Gesture 183.jpg)
 Martine Syms, still from "Notes on Gesture," 2015
 
 Join us on Sunday, July 22 from 2 until 6 pm to celebrate the kickoff of Dominica’s residency with readings by [Diamond Stingily](https://i-d.vice.com/en_uk/article/gyw7nb/the-world-needs-more-artists-like-diamond-stingily), [Rami George](http://ramigeorge.net/), [Rocket Caleshu](http://bwr.ua.edu/2016-contest-an-interview-with-nonfiction-winner-rocket-caleshu/), and [Carolyn Lazard](http://www.carolynlazard.com/), followed by a DJ set with Yassir "Yaya V" Valentine. Drinks, snacks, and summer vibes.
