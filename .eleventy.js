@@ -41,9 +41,8 @@ module.exports = (eleventyConfig) => {
         urlPath: eleventyConfig.dir.images,
         outputDir: `${eleventyConfig.dir.output}/${eleventyConfig.dir.images}`,
       };
-      // markdown-it doesn't work with async so thanks to @solution-loisir
-      // for how to do without using promises
-      // https://github.com/solution-loisir/markdown-it-eleventy-img/blob/master/index.js
+      // markdown-it doesn't work with async so use it synchronously
+      // https://www.11ty.dev/docs/plugins/image/#synchronous-shortcode
       Image(imgSrc, imgOptions);
       const metadata = Image.statsSync(imgSrc, imgOptions);
       const imageMarkup = Image.generateHTML(metadata, {
