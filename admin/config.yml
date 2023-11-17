@@ -30,7 +30,7 @@ collections:
           label: "Date",
           widget: "datetime",
           description: "Date of post affects in which order posts appear",
-          date_format: "YYYY-MM-DD",
+          format: "YYYY-MM-DDTHH:mm-0500",
         }
       - {
           name: "event_date",
