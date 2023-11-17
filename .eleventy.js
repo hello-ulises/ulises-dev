@@ -66,6 +66,7 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addPassthroughCopy("assets/favicon");
   eleventyConfig.addPassthroughCopy("assets/font");
   eleventyConfig.addPassthroughCopy("assets/js");
+  eleventyConfig.addPassthroughCopy("admin");
 
   // for prefix path as needed for relative paths
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
