@@ -40,4 +40,4 @@ For more tips/trick on how to format in Markdown, I often refer to [this cheatsh
 
 ## (horizontal rule)
 
-![odds_ends_2016_1600x1600.jpg]({{site.baseurl}}/assets/img/odds_ends_2016_1600x1600.jpg)
+![odds_ends_2016.jpg]({{site.baseurl}}/assets/img/odds_ends_2016.jpg)
