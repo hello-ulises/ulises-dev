@@ -41,6 +41,10 @@ module.exports = (eleventyConfig) => {
         widths: [300, 600],
         urlPath: eleventyConfig.dir.images,
         outputDir: `${eleventyConfig.dir.output}/${eleventyConfig.dir.images}`,
+        formats: ["webp", "jpeg", "gif"],
+        sharpOptions: {
+          animated: true,
+        },
       };
       // markdown-it doesn't work with async so use it synchronously
       // https://www.11ty.dev/docs/plugins/image/#synchronous-shortcode
