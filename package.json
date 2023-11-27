@@ -11,7 +11,12 @@
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.8",
+    "esbuild": "^0.19.8",
     "markdown-it-attrs": "^4.1.6",
     "sass": "^1.68.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "perfect-scrollbar": "^1.5.5"
   }
 }
