@@ -2,6 +2,7 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const Image = require("@11ty/eleventy-img");
 const sass = require("sass");
 const path = require("path");
+const ColorThief = require("colorthief");
 
 // add markdown support
 const mdOptions = {
@@ -99,6 +100,33 @@ module.exports = (eleventyConfig) => {
   /**
    * Template rendering
    */
+
+  // add dominant color filter
+  // quick sketch for how we'd get dominant color
+  // @todo
+  // - default color and handling for when no data is available
+  // - sanity check whether this is the right way (build time is significantly sped up)
+  eleventyConfig.addAsyncFilter("thumbnail", async (value) => {
+    let metadata = await Image(`./${value}`, {
+      widths: [300],
+      urlPath: eleventyConfig.dir.images,
+      outputDir: `./${eleventyConfig.dir.output}/${eleventyConfig.dir.images}`,
+    });
+
+    let imageAttributes = {
+      alt: "test",
+      class: "thumb",
+    };
+
+    let color = await ColorThief.getColor(`./${value}`);
+    color = `--hover: rgb(${color[0]},${color[1]},${color[2]})`;
+
+    // You bet we throw an error on a missing alt (alt="" works okay)
+    let out = await Image.generateHTML(metadata, imageAttributes);
+    return `<div class="thumb-wrapper" style="${color}">${out}</div>`;
+
+    // return value;
+  });
 
   // add category filter
   eleventyConfig.addFilter("byCategory", (collection, category) =>

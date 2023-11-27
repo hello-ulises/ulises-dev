@@ -13,6 +13,12 @@
 
   </header>
 
+  {% if post.data.thumb %}
+
+  {{ post.data.thumb | thumbnail }}
+
+  {% endif %}
+
   <div class="post-content" itemprop="articleBody">
     {{ post.content}}
   </div>

@@ -38,3 +38,15 @@
 // Import custom layouts
 @import "mixins";
 @import "layouts";
+
+.thumb-wrapper {
+  width: 100%;
+  &:hover {
+    background-color: var(--hover);
+  }
+  display: flex;
+  justify-content: center;
+}
+.thumb {
+  height: 300px;
+}
