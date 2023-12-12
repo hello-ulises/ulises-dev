@@ -2,6 +2,7 @@ const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
 const Image = require("@11ty/eleventy-img");
 const sass = require("sass");
 const path = require("path");
+const fs = require("fs-extra");
 
 // add markdown support
 const mdOptions = {
@@ -20,10 +21,30 @@ module.exports = (eleventyConfig) => {
    * Global options
    */
 
+  // search index
+  eleventyConfig.addGlobalData("searchIndex", []);
+
   // markdown
   eleventyConfig.setLibrary("md", md);
-  // replace image parser with 11ty image plugin
   eleventyConfig.amendLibrary("md", (mdLib) => {
+    /* search index */
+    md.core.ruler.before("block", "raw", function replace(state) {
+      // add prerendered content to search index
+      if (state.env.tags && state.env.tags.includes("index")) {
+        let raw = state.src.replace(/\n/g, "");
+        const post = {
+          title: state.env.title,
+          slug: state.env.page.fileSlug,
+          content: raw,
+          event_date: state.env.event_date,
+          year: state.env.date.toString().slice(0, 4),
+        };
+        eleventyConfig.globalData.searchIndex.push(post);
+      }
+    });
+
+    /* sharp image plugin pipeline  */
+    // replace image parser with 11ty image plugin
     mdLib.renderer.rules.image = (
       tokens,
       index,
@@ -54,7 +75,6 @@ module.exports = (eleventyConfig) => {
 
       return imageMarkup;
     };
-
     return mdLib;
   });
 
@@ -71,6 +91,7 @@ module.exports = (eleventyConfig) => {
   // for prefix path as needed for relative paths
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
 
+  // @todo refactor to plugin
   // thanks to https://github.com/GrimLink/eleventy-plugin-sass
   eleventyConfig.addTemplateFormats("scss");
   // Creates the extension for use
@@ -110,6 +131,14 @@ module.exports = (eleventyConfig) => {
     return md.render(obj);
   });
 
+  // write search index to file
+  eleventyConfig.on("eleventy.after", () => {
+    fs.writeJsonSync(
+      "./_site/search-index.json",
+      eleventyConfig.globalData.searchIndex
+    );
+  });
+
   /**
    * Global settings object
    */
@@ -121,7 +150,6 @@ module.exports = (eleventyConfig) => {
       includes: "includes",
       images: "assets/img",
     },
-    templateFormats: ["html", "liquid", "md", "njk"],
-    markdownTemplateEngine: "njk",
+    templateFormats: ["html", "liquid", "md"],
   };
 };
