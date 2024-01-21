@@ -1,15 +1,14 @@
 ---
-layout: post
 date: "2018-03-10T13:10-0500"
 published: true
 title: "Dear Reader: Study in Blue"
-event_date: "Tuesday, March 13, 6:30–8PM"
+event_display_date: "Tuesday, March 13, 6:30–8PM"
 categories: left
 tags:
+  - events
   - education
+featured_img: /assets/img/dear-reader.jpg
 ---
-
-![dear-reader.jpg]({{site.baseurl}}/assets/img/dear-reader.jpg)
 
 Join Ulises for a group discussion facilitated by Connie Yu on the essays “Commitment as a Non-Performative" by Sara Ahmed, Andrea Long Chu's rumination in the work "Study in Blue: affect, trauma, event" from Women & Performance, 2017, and excerpts from the book “The Undercommons" by Fred Moten and Stefano Harney.. [RSVP](https://www.facebook.com/events/227155514510749/) The readings are available through the links below.
 

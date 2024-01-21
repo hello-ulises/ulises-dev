@@ -1,10 +1,10 @@
 ---
 title: No. 4 Education
 date: "2017-12-05T23:21-0400"
-event_date: December 2017 through February 2018
-layout: post
+event_display_date: December 2017 through February 2018
 categories: left
 tags:
+  - events
   - education
 published: true
 ---

@@ -1,13 +1,14 @@
 ---
-layout: post
 date: "2019-01-21T21:20-0600"
 published: true
 title: "Michael C. Vazquez: Surrealist Self-Fashioning"
-event_date: "Sunday, January 27, 2–4pm"
+event_display_date: "Sunday, January 27, 2–4pm"
 categories: left
+tags:
+  - events
+featured_img: /assets/img/50276847_2060641054019452_3595583347029442560_o.jpg
 ---
 
-![50276847_2060641054019452_3595583347029442560_o.jpg]({{site.baseurl}}/assets/img/50276847_2060641054019452_3595583347029442560_o.jpg)
 Image: Colette Omogbai, "Agony," 1963. Oil on Hardboard
 
 Join us on Sunday, January 27 from 2–4 pm for an illustrated lecture by Bidoun Senior Editor Michael C. Vazquez focusing on surrealist self-fashioning. [RSVP HERE](https://www.facebook.com/events/1839609066167763/)

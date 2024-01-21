@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2019-03-25T10:43-0400"
 published: true
 title: GenderFail "Conditioner" Publication Launch
 categories: left
-event_date: "Sunday, March 31, 2–4PM"
+tags:
+  - events
+event_display_date: "Sunday, March 31, 2–4PM"
+featured_img: /assets/img/54379024_2140529272697296_8002580552798437376_o.jpg
 ---
-
-![54379024_2140529272697296_8002580552798437376_o.jpg]({{site.baseurl}}/assets/img/54379024_2140529272697296_8002580552798437376_o.jpg)
 
 Please join Ulises for a publication release and reading event for "Conditioner" a new publication by artist [Liz Barr](https://liz-barr.com/) through [GenderFail Press](https://www.genderfail.space/). Barr will be joined by writers Meg Pendoley and Blanche Brown in a series of readings for the event.
 

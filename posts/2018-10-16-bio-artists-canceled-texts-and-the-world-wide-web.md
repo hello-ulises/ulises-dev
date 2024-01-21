@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2018-10-16T22:32-0400"
 published: true
 title: "Bio: Artists’ Canceled Texts and the World Wide Web"
 categories: left
-event_date: "Saturday, October 27,  6pm"
+tags:
+  - events
+event_display_date: "Saturday, October 27,  6pm"
+featured_img: /assets/img/Bio_Cover-2.gif
 ---
-
-![Bio_Cover-2.gif]({{site.baseurl}}/assets/img/Bio_Cover-2.gif)
 
 Bio: Artists’ Canceled Texts and the World Wide Web,
 Maryam Monalisa Gharavi in Conversation with Malcolm Harris

@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2019-04-02T22:58-0400"
 published: true
 title: 2019 COMMON FIELD PHILADELPHIA CONVENING
-event_date: "April 25-28, 2019"
+event_display_date: "April 25-28, 2019"
 categories: left
+tags:
+  - events
+featured_img: /assets/img/commonfield_facebook_post_3.png
 ---
-
-![commonfield_facebook_post_3.png]({{site.baseurl}}/assets/img/commonfield_facebook_post_3.png)
 
 Ulises is proud to announce our partnership with [Common Field](https://www.commonfield.org/convenings/) — a national network of experimental, independent, visual arts organizations and organizers — to bring the annual Convening to Philadelphia, PA from April 25–28, 2019. The Common Field Convening is an itinerant gathering that brings together 500+ local and national arts organizers to explore the state of the field of artists organizations and to share resources, knowledge and methods for artist-led, artist-run, and artist-centered projects, spaces and practices.
 

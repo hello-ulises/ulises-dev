@@ -1,16 +1,15 @@
 ---
 title: Publishing As Practice
 date: "2019-12-01T21:48-0500"
-event_date: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun
-layout: post
+event_display_date: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun
 categories: left
 tags:
+  - events
   - sticky
   - mobile-only
-published: true
+published: false
+featured_img: /assets/img/pasp.gif
 ---
-
-![Publishing as Practice Book animated gif](/assets/img/pasp.gif)
 
 Edited by Ulises: Kayla Romberger, Gee Wesley, Nerissa Cooney, Lauren Downing, and Ricky Yanas\
 Co-published by: Inventory Press & Ulises\

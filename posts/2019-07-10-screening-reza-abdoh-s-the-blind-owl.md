@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2019-07-10T10:52-0400"
 published: true
 title: "Screening: Reza Abdoh's The Blind Owl"
 categories: left
-event_date: " Thursday, July 18, 6–8 PM"
+tags:
+  - events
+event_display_date: " Thursday, July 18, 6–8 PM"
+featured_img: /assets/img/The-Blind-Owl-Still-with-Ron-Athey.jpg
 ---
-
-![]({{site.baseurl}}/assets/img/The-Blind-Owl-Still-with-Ron-Athey.jpg)
 
 "The Blind Owl" Still with Ron Athey
 

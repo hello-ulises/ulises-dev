@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2020-05-29T19:30-0400"
 published: true
 title: Press Play — LIVE!
 categories: left
-event_date: "Sunday, May 31, 2–4PM"
+tags:
+  - events
+event_display_date: "Sunday, May 31, 2–4PM"
+featured_img: /assets/img/press_play_flyer (3).jpg
 ---
-
-![press_play_flyer (3).jpg]({{site.baseurl}}/assets/img/press_play_flyer (3).jpg)
 
 [Register](https://moorecad.zoom.us/meeting/register/tJUodOisqDMoG9wVU75dJv8fwr4yl5tF7oh-)
 
