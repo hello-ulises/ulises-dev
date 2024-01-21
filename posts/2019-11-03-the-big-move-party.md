@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2019-11-03T16:33-0500"
 published: true
 title: The Big Move Party
-event_date: "Saturday, November 9, 2019"
+event_display_date: "Saturday, November 9, 2019"
 categories: left
+tags:
+  - events
+featured_img: /assets/img/IMG_4418.JPG
 ---
-
-![IMG_4418.JPG]({{site.baseurl}}/assets/img/IMG_4418.JPG)
 
 Join the Ulises team in celebrating our 3 year anniversary and a big move! The books and furniture are already gone, so bring dancing shoes. There will be drinks and movin and groovin as we embrace change and remember so many great moments in the old garage-turned bookstore. Tunes to move to by DJ Mier Mier Mier Mier Mier (Jamier Bieber Snell) & jay plus.
 

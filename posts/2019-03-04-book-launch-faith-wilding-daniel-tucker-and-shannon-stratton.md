@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2019-03-10T10:00-0500"
 published: true
 title: "Book Launch: Faith Wilding, Daniel Tucker, and Shannon Stratton"
-event_date: "Thursday, March 14, 6:30–8PM"
+event_display_date: "Thursday, March 14, 6:30–8PM"
 categories: left
+tags:
+  - events
+featured_img: /assets/img/53674801_2119187174831506_8420242654633132032_n.jpg
 ---
-
-![53674801_2119187174831506_8420242654633132032_n.jpg]({{site.baseurl}}/assets/img/53674801_2119187174831506_8420242654633132032_n.jpg)
 
 Join us for a book signing and discussion centered around the release of "Faith Wilding’s Fearful Symmetries" (Edited by Shannon Stratton for Intellect Books, 2018).
 

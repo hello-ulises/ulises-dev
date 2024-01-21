@@ -1,15 +1,14 @@
 ---
-layout: post
 date: "2017-04-18T10:50-0400"
 published: true
 title: "Dear Reader: On Diasporic Intimacy"
+categories: left
 tags:
   - intimacy
-categories: left
-event_date: "Tuesday, April 25, 2017, 6:30PM–8PM"
+  - events
+event_display_date: "Tuesday, April 25, 2017, 6:30PM–8PM"
+featured_img: /assets/img/0425-DearReader.jpg
 ---
-
-![0425-DearReader.jpg]({{site.baseurl}}/assets/img/0425-DearReader.jpg)
 
 "Diasporic intimacy does not promise an unmediated emotional fusion, but only a precarious affection-- no less deep, yet aware of its transience." - Svetlana Boym
 

@@ -1,0 +1,16 @@
+{% unless header_title %}
+{% assign header_title = "Featured" %}
+{% endunless %}
+
+<div class="post-list-featured">
+  <h3>{{ header_title }}</h3>
+  <div class="post-list-featured__card-list-wrapper">
+    <ul class="post-list-featured__card-list">
+      {% for item in featured_items | reversed %}
+      {% if item.data.tags contains 'featured' %}
+      <li>{% include "postcard.html" %}</li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

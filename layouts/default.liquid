@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include "head.html" %}
+
+{% capture pageClass %}{% if layout == "post-page" %}{{ layout }}{% else %}{{ title }}{% endif %}{% endcapture %}
+<body class="l-default p-{{ pageClass }}">
+  {% include "navigation.html" %}
+  <div class="main-wrapper">
+    {{ content }}
+    </div>
+  {% include "footer.html" %}
+
+  <script type="text/javascript" src="/assets/js/main.js" defer></script>
+</body>
+
+</html>

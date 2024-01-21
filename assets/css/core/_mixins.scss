@@ -1,0 +1,25 @@
+@mixin get-map-values($map) {
+  @each $key, $val in $map {
+    @if type_of($val) == "string" {
+      #{$key}: unquote($val);
+    } @else {
+      #{$key}: $val;
+    }
+  }
+}
+
+@mixin get-header-height($property) {
+  #{$property}: 5em;
+}
+
+@mixin boxshadow() {
+  box-shadow: 0px -15px 25px 10px $color__gray--50;
+}
+
+@mixin breakpoint($name) {
+  $point: map-get($breakpoints, $name);
+  $str: "screen and (min-width:" + ($point * 1px) + ")";
+  @media #{$str} {
+    @content;
+  }
+}

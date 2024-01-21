@@ -1,0 +1,20 @@
+<picture>
+  <!-- port of https://www.11ty.dev/docs/plugins/image/#make-your-own-markup -->
+  {% if metadata %}
+  {% assign low = metadata.jpeg | first %}
+  {% assign high = metadata.jpeg | last %}
+
+  {% for format in metadata %}
+  {% assign source_type = format[0] %}
+  {% assign widths = format[1] %}
+
+  <source type="image/{{ source_type }}" srcset="{{ widths | map: 'srcset' | join: ', ' }}"
+    sizes="{{ widths | map: 'width' | join: ','}}">
+  {% endfor %}
+
+  <img alt="" class="postcard__thumbnail" src="{{ low.url }}" width="{{ high.width }}" loading="lazy" decoding="async">
+  {% else %}
+  <img alt="close up on a hand giving the peace sign" class="postcard__thumbnail" src="/assets/img/peace_small.png"
+    width="400" loading="lazy" decoding="async">
+  {% endif %}
+</picture>

@@ -1,12 +1,10 @@
 ---
 date: "2016-12-14T23:11-0500"
-event_date: December 18, 2016, 4–5:30PM
-layout: post
+event_display_date: December 18, 2016, 4–5:30PM
 published: false
 title: "Active Voice: Screen Time with Hannah Black"
+featured_img: /assets/img/dd2.png
 ---
-
-![dd2.png]({{site.baseurl}}/assets/img/dd2.png)
 
 Join Ulises for a reading with artist and writer Hannah Black. Black, a current contributor to the first curatorial season of Ulises, Active Voice, will read via Skype from a selection of her recent writings.
 

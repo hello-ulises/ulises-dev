@@ -1,0 +1,28 @@
+{% for card in collections.meta %}
+{% if card.data.tags contains 'footer' %}
+{% assign footer = card %}
+{% endif %}
+{% endfor %}
+
+
+<div class="footer">
+  <ul class="footer__cards">
+    {% for card in footer.data.content %}
+    {% assign header = card[0] %}
+    <li class="footer__card-{{header}}">
+      {% if header == 'links' %}
+      <ul>
+        {% for link in footer.data.content.links %}
+        <li><a href="{{link.url}}">{{link.text}}</a></li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <h4>{{ header }}</h4>
+      {% for line in footer.data.content[header] %}
+      <p>{{line}}</p>
+      {% endfor %}
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</div>

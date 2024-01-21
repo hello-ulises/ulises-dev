@@ -1,13 +1,14 @@
 ---
 title: Publishing As Practice
 date: "2019-12-01T21:48-0500"
-event_date: 2017–2019
-layout: post
+event_display_date: 2017–2019
 categories: right
 published: true
+tags:
+  - projects
+  - featured
+featured_img: /assets/img/pasp.gif
 ---
-
-![Publishing as Practice Book animated gif](/assets/img/pasp.gif)
 
 Edited by Ulises: Kayla Romberger, Gee Wesley, Nerissa Cooney, Lauren Downing, and Ricky Yanas\
 Co-published by: Inventory Press & Ulises\

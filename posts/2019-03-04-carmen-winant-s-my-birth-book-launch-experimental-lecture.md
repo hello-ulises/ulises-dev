@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2019-03-04T10:32-0500"
 published: true
 title: 'Carmen Winant''s "My Birth": Book Launch + Experimental Lecture'
 categories: left
-event_date: "Thursday, March 7, 6:30–8:30PM"
+tags:
+  - events
+event_display_date: "Thursday, March 7, 6:30–8:30PM"
+featured_img: /assets/img/CarmenWinant.jpg
 ---
-
-![]({{site.baseurl}}/assets/img/CarmenWinant.jpg)
 
 Please join Ulises for an experimental lecture/book launch by artist and writer [Carmen Winant](http://carmenwinant.com/).
 

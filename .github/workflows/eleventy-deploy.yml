@@ -24,7 +24,7 @@ jobs:
           # The switches
           switches: -r --exclude=.htaccess --exclude=.htpasswd --delete-after
           # The local path
-          path: _site/
+          path: dist/
           # The remote path
           remote_path: ~/www/dev.ulises.us/
           # The remote host

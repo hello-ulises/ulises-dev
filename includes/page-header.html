@@ -1,0 +1,9 @@
+{% assign description_tag = item_type | append: "-description" %}
+
+<div class="page-header">
+  {% for item in collections.meta %}
+  {% if item.data.tags contains description_tag %}
+  {{ item.content }}
+  {% endif %}
+  {% endfor %}
+</div>

@@ -1,0 +1,76 @@
+.post-page {
+  display: flex;
+  justify-content: center;
+}
+
+.post-page__wrapper {
+  @include breakpoint("medium") {
+    max-width: 68rem;
+  }
+
+  .post-page__section {
+    margin-bottom: 3.5rem;
+    @include breakpoint("medium") {
+      margin-bottom: 10.5rem;
+    }
+  }
+}
+
+.post-page__header {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  h2 {
+    font-size: 3rem;
+    @include breakpoint("medium") {
+      font-size: 4.25rem;
+    }
+  }
+}
+
+.post-page__featured-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  picture {
+    img {
+      max-width: calc(100% - 2 * $spacing-02);
+    }
+
+    align-self: center;
+  }
+
+  figcaption {
+    @include get-map-values($sans);
+  }
+}
+
+.post-page__metadata {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4rem;
+  .post-page__field {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .post-page__label,
+  .post-page__value {
+    @include get-map-values($serif);
+    margin-bottom: $spacing-01;
+
+    @include breakpoint("medium") {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.post-page__content {
+  font-size: 1.25rem;
+  @include breakpoint("medium") {
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}

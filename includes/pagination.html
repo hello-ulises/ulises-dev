@@ -1,0 +1,9 @@
+{% if pagination.pages.length > 1 %}
+<div class="pagination">
+  <ul class="pagination__list">
+    {% for i in (0..pagination.pages.length) %}
+    <li><a href="{{pagination.hrefs[i]}}">{{i | plus: 1 }}</a></li>
+    {% endfor %%}
+  </ul>
+</div>
+{% endif %}

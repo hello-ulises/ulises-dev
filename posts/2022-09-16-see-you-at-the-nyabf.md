@@ -1,12 +1,14 @@
 ---
 title: See you at the NYABF
 date: 2022-09-16T15:42:32.386Z
-event_date: October 13–16, 2022
-layout: post
+event_display_date: October 13–16, 2022
 categories: left
+tags:
+  - events
+  - featured
 published: true
+featured_img: /assets/img/pmabf22_instagram_1080_square.jpg
 ---
-![](/assets/img/pmabf22_instagram_1080_square.jpg)
 
 P﻿rinted Matter's NY Art Book Fair takes place Oct 13-16 at 548 W 22nd St. NY. F﻿ind Ulises at table **C42** and pick up a copy of Publishing As Practice!
 

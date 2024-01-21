@@ -1,15 +1,14 @@
 ---
-layout: post
 date: "2017-04-12T18:32-0400"
 published: true
 title: The Third Rail Issue 10 Philadelphia Launch
+categories: left
 tags:
   - intimacy
-categories: left
-event_date: "Saturday, April 15, 2017, 7PM–9PM"
+  - events
+event_display_date: "Saturday, April 15, 2017, 7PM–9PM"
+featured_img: /assets/img/TTR-Issue-10d.gif
 ---
-
-![TTR-Issue-10d.gif]({{site.baseurl}}/assets/img/TTR-Issue-10d.gif)
 
 Please join Ulises this Saturday for the Philadelphia launch of the newest issue of The Third Rail. The launch will feature a short screening program of videos connected to Issue 10 and Ulises' quarterly theme, Intimacy. Jonathan Thomas, editor of The Third Rail, will give a brief introduction. Drinks and light refreshments will be available.
 

@@ -1,17 +1,29 @@
 {
   "name": "ulises.us",
   "version": "0.0.1",
-  "description": "```",
-  "main": "index.js",
+  "description": "Ulises website 11ty instance",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hello-ulises/ulises.us.git"
+  },
   "author": "@bulbil",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hello-ulises/ulises.us/issues"
+  },
+  "homepage": "https://github.com/hello-ulises/ulises.us#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
     "@11ty/eleventy-img": "^3.1.8",
+    "colorthief": "^2.4.0",
+    "esbuild": "^0.19.9",
+    "esbuild-sass-plugin": "^2.16.0",
+    "fs-extra": "^11.2.0",
+    "fuse.js": "^7.0.0",
     "markdown-it-attrs": "^4.1.6",
-    "sass": "^1.68.0"
+    "normalize.css": "^8.0.1"
   }
 }

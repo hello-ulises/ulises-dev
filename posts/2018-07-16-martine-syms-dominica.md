@@ -1,8 +1,9 @@
 ---
 title: Martine Syms/Dominica
 date: "2018-07-16T21:13-0400"
-layout: post
 categories: left
+tags:
+  - events
 published: true
 ---
 

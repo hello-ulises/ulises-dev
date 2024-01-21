@@ -1,15 +1,14 @@
 ---
-layout: post
 date: "2017-10-08T18:20-0400"
 published: true
 title: "Dear Reader: Dignity Has No Nationality & Migrant Manifesto"
 categories: left
-event_date: "Tuesday, October 10, 6–8PM"
+event_display_date: "Tuesday, October 10, 6–8PM"
 tags:
+  - events
   - migrations
+featured_img: /assets/img/index.jpeg
 ---
-
-![index.jpeg]({{site.baseurl}}/assets/img/index.jpeg)
 
 "We are all tied to more than one country. The multilaterally shaped phenomenon of migration cannont be solved unilaterally, or else it generates a vulnerable reality for migrants. Implementing universal rights is essential. The right to be inlcluded belongs to everyone."
 

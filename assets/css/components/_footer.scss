@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--background-color);
+  padding: 0 $spacing-03 calc(2 * $spacing-03) $spacing-03;
+  > ul {
+    > li {
+      margin-top: $spacing-01;
+    }
+    li {
+      display: block;
+    }
+
+    @include breakpoint("medium") {
+      display: grid;
+      gap: 4rem;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  h4,
+  p,
+  a {
+    @include get-map-values($sans);
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    font-weight: normal;
+    margin: $spacing-01 0 0 0;
+    @include breakpoint("medium") {
+      font-size: 2rem;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      color: var(--link-hover-color);
+    }
+  }
+}

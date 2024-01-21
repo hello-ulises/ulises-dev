@@ -1,0 +1,16 @@
+<div class="postcard" style="--predominant-color: {{ item.data.predominantColor }};">
+  <a href="{{ item.data | urlPath }}">
+    <div class="postcard__thumbnail-wrapper">
+      {% include "picture.html" metadata: item.data.imageMetadata %}
+    </div>
+
+    <div class="postcard__meta">
+      <div class="postcard__title">{{ item.data.title }}</div>
+      {% if item.data.event_display_date %}
+      <div class="postcard__date">
+        {{ item.data.event_display_date }}
+      </div>
+      {% endif %}
+    </div>
+  </a>
+</div>
