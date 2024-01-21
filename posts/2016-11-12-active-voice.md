@@ -1,9 +1,10 @@
 ---
 title: No. 1 Active Voice
 date: 2016-11-12
-event_date: November 12, 2016 through January 22, 2017
-layout: post
+event_display_date: November 12, 2016 through January 22, 2017
 categories: left
+tags:
+  - projects
 published: true
 ---
 
@@ -13,26 +14,26 @@ Active Voice considers the voice in relation to listening, language, and politic
 
 ### Steffani Jemison
 
-Steffani Jemison presents her 2014 two-channel sound piece, "Same Time," a reprisal of a speech delivered in 1970 by Black Panther Party founder Huey P. Newton that has been reinterpreted by Brooklyn-based R&B group Sidetrack Boyz as a vocal improvisation. 
+Steffani Jemison presents her 2014 two-channel sound piece, "Same Time," a reprisal of a speech delivered in 1970 by Black Panther Party founder Huey P. Newton that has been reinterpreted by Brooklyn-based R&B group Sidetrack Boyz as a vocal improvisation.
 
 ### Hannah Black
 
 Hannah Black presents a selection of recent video works – including "Intensive Care/Hot New Track," "Fall of Communism," and "My Bodies" – that consider pop vocals as a space to explore violence, power, and pluralism.
 
 ### Mark Beasley
+
 Re-Voice Reading Room
 
 A curated selection of books and records on the theme of voice
-
 
 January 10, 2017, 6:30PM–8PM
 January 17, 2017, 6:30PM–8PM
 Mark Beasley: Re-Voice Reading Room
 
-Mark Beasley presents, *Re-Voice*, a curated selection of books and records on the theme of voice. These events are the first in a new reading group series from Ulises entitled "Dear Reader". These discussions aim to open up and invite conversation on excerpts from Mark's list.
-
+Mark Beasley presents, _Re-Voice_, a curated selection of books and records on the theme of voice. These events are the first in a new reading group series from Ulises entitled "Dear Reader". These discussions aim to open up and invite conversation on excerpts from Mark's list.
 
 ## Twelve Books & Seven Records: Re-Voice
+
 A curated selection of books and records on the theme of voice, by Mark Beasley
 
 1. Ashley, Robert, "Perfect Lives: An Opera, Burning Books," New York, 1991

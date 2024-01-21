@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2017-10-10T22:57-0400"
 published: true
 title: "Book Launch: Words, Books, and the Spaces They Inhabit"
 categories: left
-event_date: "Sunday, October 15, 3–5PM"
+tags:
+  - events
+event_display_date: "Sunday, October 15, 3–5PM"
+featured_img: /assets/img/07-NAOC-01.jpg
 ---
-
-![07-NAOC-01.jpg]({{site.baseurl}}/assets/img/07-NAOC-01.jpg)
 
 Join Ulises for a book launch and conversation celebrating the release of "Words, Books, and the Spaces They Inhabit" (Sternberg Press, 2017) a new publication by Mari Shaw and the first in her series "The Noble Art of Collecting."
 

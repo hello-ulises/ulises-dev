@@ -1,13 +1,14 @@
 ---
-layout: post
 date: "2018-11-29T20:09-0500"
 published: true
 title: Reza Abdoh’s Showtapes and Short Films
 categories: left
-event_date: "Wednesday, December 5,  6pm"
+tags:
+  - events
+event_display_date: "Wednesday, December 5,  6pm"
+featured_img: /assets/img/46984668_1984830651600493_4508748683273043968_o.jpg
 ---
 
-![46984668_1984830651600493_4508748683273043968_o.jpg]({{site.baseurl}}/assets/img/46984668_1984830651600493_4508748683273043968_o.jpg)
 "Sleeping With the Devil," 1988. USA. Directed by Reza Abdoh
 
 This screening is at the [ICA Philadelphia](https://icaphila.org/events/48768/) and is free and open to the public, though registration is appreciated. [Register Here](https://icaphila.org/events/48768/)

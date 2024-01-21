@@ -1,15 +1,14 @@
 ---
-layout: post
 date: "2018-01-20T12:50-0500"
 published: true
 title: Reading Out Loud
 categories: left
-event_date: "Sunday, January 28, 2–4PM"
+event_display_date: "Sunday, January 28, 2–4PM"
 tags:
+  - events
   - education
+featured_img: /assets/img/26840783_1602674933149402_8425449545268900409_o.jpg
 ---
-
-![26840783_1602674933149402_8425449545268900409_o.jpg]({{site.baseurl}}/assets/img/26840783_1602674933149402_8425449545268900409_o.jpg)
 
 How do we read? Why do we read? With whom? When and where?
 

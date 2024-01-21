@@ -1,10 +1,10 @@
 ---
 title: No. 3 Migrations
 date: "2017-06-27T23:21-0400"
-event_date: July 1 through October 1, 2017
-layout: post
+event_display_date: July 1 through October 1, 2017
 categories: left
 tags:
+  - projects
   - migrations
 published: true
 ---

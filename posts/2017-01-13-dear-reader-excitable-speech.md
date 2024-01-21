@@ -1,13 +1,13 @@
 ---
 date: "2017-01-13T22:34-0500"
-event_date: Tuesday, January 17, 2017, 6:30–8PM
-layout: post
+event_display_date: Tuesday, January 17, 2017, 6:30–8PM
 published: true
 title: "Dear Reader: Excitable Speech"
 categories: left
+tags:
+  - events
+featured_img: /assets/img/15895272_1251954841554748_1400330800993685810_n.jpg
 ---
-
-![15895272_1251954841554748_1400330800993685810_n.jpg]({{site.baseurl}}/assets/img/15895272_1251954841554748_1400330800993685810_n.jpg)
 
 Join Ulises for a reading group discussion led by Maria Murphy on Judith Butler's text “Excitable Speech: A Politics of the Performative.” This session's reading will focus on Chapter One of “Excitable Speech” entitled, “Burning Acts, Injurious Speech,” found in the link below.
 

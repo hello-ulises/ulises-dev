@@ -1,15 +1,14 @@
 ---
-layout: post
 date: "2017-08-11T10:29-0400"
 published: true
 title: Marwa Arsanios Screening and Conversation
 categories: left
 tags:
+  - events
   - migrations
-event_date: "Saturday, August 19, 2017, 4–6PM"
+event_display_date: "Saturday, August 19, 2017, 4–6PM"
+featured_img: /assets/img/marwaarsanios3.jpg
 ---
-
-![marwaarsanios3.jpg]({{site.baseurl}}/assets/img/marwaarsanios3.jpg)
 
 Migrations contributor Marwa Arsanios will appear via Skype for a conversation and screening of the artist's two recent video works, “Falling Is Not Collapsing, Falling Is Extending” and "Who is afraid of ideology."
 

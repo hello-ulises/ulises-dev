@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2017-03-22T22:53-0400"
 published: true
 title: '"Hyper Normalization" Screening'
 categories: left
-event_date: "Friday, March 31, 2017, 7:30PM"
+tags:
+  - events
+event_display_date: "Friday, March 31, 2017, 7:30PM"
+featured_img: /assets/img/TITLE CARD.png
 ---
-
-![TITLE CARD.png]({{site.baseurl}}/assets/img/TITLE CARD.png)
 
 Please join Ulises for a screening of “Hyper Normalization” (Adam Curtis, 2016, 166 minutes) with an introduction by Ulises member and Philly-based designer, Joel Evey. Followed by drinks and mingling.
 

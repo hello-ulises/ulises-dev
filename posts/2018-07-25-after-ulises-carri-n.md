@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2018-07-25T10:06-0400"
 published: true
 title: After Ulises (Carrión)
 categories: left
-event_date: "Sunday, July 29, 2018, 2–4PM"
+tags:
+  - events
+event_display_date: "Sunday, July 29, 2018, 2–4PM"
+featured_img: /assets/img/37661338_1809499885800238_3356474872619335680_o.jpg
 ---
-
-![37661338_1809499885800238_3356474872619335680_o.jpg]({{site.baseurl}}/assets/img/37661338_1809499885800238_3356474872619335680_o.jpg)
 
 Please join us for a very special presentation entitled "After Ulises (Carrión): Artists' Books and DIY Publishing in & Around The Netherlands." [RSVP](https://www.facebook.com/events/442920809507833/)
 

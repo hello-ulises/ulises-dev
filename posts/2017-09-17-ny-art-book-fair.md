@@ -1,12 +1,12 @@
 ---
-layout: post
 date: "2017-09-17T22:05-0400"
 published: true
 title: NY Art Book Fair
 categories: left
+tags:
+  - events
+featured_img: /assets/img/IMG_1744-730x470.jpg
 ---
-
-![IMG_1744-730x470.jpg]({{site.baseurl}}/assets/img/IMG_1744-730x470.jpg)
 
 Next weekend Ulises will be at the [New York Art Book Fair](http://nyartbookfair.com/about/), organized by Printed Matter at MoMA PS1.
 

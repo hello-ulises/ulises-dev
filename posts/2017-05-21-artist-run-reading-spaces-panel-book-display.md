@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2017-05-21T20:23-0400"
 published: true
 title: "Artist-Run Reading Spaces, Panel & Book Display"
-event_date: "Sunday, June 4, 3:30–5PM"
+event_display_date: "Sunday, June 4, 3:30–5PM"
 categories: left
+tags:
+  - events
+featured_img: /assets/img/18556623_310192286079730_3304069030822008828_o.jpg
 ---
-
-![18556623_310192286079730_3304069030822008828_o.jpg]({{site.baseurl}}/assets/img/18556623_310192286079730_3304069030822008828_o.jpg)
 
 [Artist-Run Reading Spaces](https://www.facebook.com/events/170205546844757/?acontext=%7B%22ref%22%3A%223%22%2C%22ref_newsfeed_story_type%22%3A%22regular%22%2C%22feed_story_type%22%3A%22361%22%2C%22action_history%22%3A%22null%22%7D) is part of BABZ FAIR 2017 Extended Program Series
 [Knockdown Center](https://knockdown.center/), 52-19 Flushing Ave, Queens, New York 11378

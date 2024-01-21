@@ -1,15 +1,14 @@
 ---
-layout: post
 date: "2017-03-07T22:12-0500"
 published: true
 title: "Love, Optimized: Workshop and Pop-Up Show"
 categories: left
 tags:
+  - events
   - intimacy
-event_date: "Saturday, March 18, 2017"
+event_display_date: "Saturday, March 18, 2017"
+featured_img: /assets/img/love-optimized-workshop-animation.gif
 ---
-
-![love-optimized-workshop-animation.gif]({{site.baseurl}}/assets/img/love-optimized-workshop-animation.gif)
 
 Workshop: Saturday 2–5pm
 Limited capacity: Sign up at [loveoptimizedworkshop.eventbrite.com](https://loveoptimizedworkshop.eventbrite.com)

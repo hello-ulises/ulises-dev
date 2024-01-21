@@ -1,13 +1,13 @@
 ---
-layout: post
 date: "2019-08-17T15:02-0400"
 published: true
 title: "Art and Labor: What's Next After a Summer of Struggle? "
-event_date: "Thursday, August 29, 6–8pm"
+event_display_date: "Thursday, August 29, 6–8pm"
 categories: left
+tags:
+  - events
+featured_img: /assets/img/Screen Shot 2019-08-17 at 4.02.28 PM.png
 ---
-
-![Screen Shot 2019-08-17 at 4.02.28 PM.png]({{site.baseurl}}/assets/img/Screen Shot 2019-08-17 at 4.02.28 PM.png)
 
 This a very particular moment of change for the art and museum field. Agitating around issues of part-time contracts, workplace safety, lack of benefits, and equity across different vectors, recent months have witnessed a wave of unionizing, landmark labor discrimination lawsuits, public salary sharing, and work for equity of representation of critics and cultural voices, amongst other highly visible and completely invisible work.
 
