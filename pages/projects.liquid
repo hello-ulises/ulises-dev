@@ -1,0 +1,19 @@
+---
+layout: default
+title: projects
+permalink: "/projects/{% unless pagination.pageNumber == 0 %}{{ pagination.pageNumber | plus: 1 }}/{% endunless %}index.html"
+item_type: "projects"
+pagination:
+  data: collections.pastProjects
+  size: 12
+  reverse: true
+  alias: "past_projects"
+---
+
+{% include "page-header.html", %%}
+
+{% include "post-list-featured.html", header_title: 'Featured', featured_items: collections.projects %}
+
+{% include "post-list-past.html", past_items: past_projects %%}
+
+{% include "pagination.html" %}

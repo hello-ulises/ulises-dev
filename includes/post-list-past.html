@@ -1,0 +1,14 @@
+{% unless header_title %}
+{% assign header_title = "Past" %}
+{% endunless %}
+
+<div class="post-list-past post-list">
+  <h3>{{ header_title }}</h3>
+  <div class="post-list-past__card-list-wrapper">
+    <ul class="post-list-past__card-list">
+      {% for item in past_items %}
+      <li>{% include "postcard.html" %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

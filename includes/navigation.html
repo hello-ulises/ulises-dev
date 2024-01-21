@@ -1,0 +1,35 @@
+{% assign nav_title = title | navTitle: tags %}
+
+<div class="nav" id="nav">
+  <div class="nav__wrapper">
+    <div class="nav__header">
+      <h1 class="nav__header-title">ulises<span class="nav__header-noun"> is a archive</span></h1>
+    </div>
+
+    <div class="nav__links">
+      {% if nav_title %}<div class="nav__page-title">{{ nav_title }}</div>{% endif %}
+      <ul class="nav__links-list" id="nav-menu-links">
+        <li id="events"><a href="/events">events</a></li>
+        <li id="projects"><a href="/projects">projects</a></li>
+        <li id="about"><a href="/about">about</a>
+          <ul class="nav__links-about">
+            <li><a href="/about#visit">visit</a></li>
+            <li><a href="/about#consignment">consignment</a></li>
+            <li><a href="/about#donate">donate</a></li>
+            <li><a href="/about#contact">contact</a></li>
+          </ul>
+        </li>
+        <li><a href="/shop">shop</a></li>
+        <li>
+          <form role="search" id="search-form">
+            <input type="search" name="q" aria-label="Search through site content" />
+            <input type="submit" value="go">
+          </form>
+        </li>
+      </ul>
+    </div>
+
+    <div class="nav__action"><button id="js-nav-menu-toggle" class="button">Menu</button></div>
+    {% if layout == "post-page" %}<div class="nav__close"><a href="/{{ nav_title }}"></a></div>{% endif %}
+  </div>
+</div>

@@ -1,0 +1,39 @@
+---
+layout: default
+title: search
+permalink: /search.html
+---
+
+
+<div class="p-search__wrapper no-results">
+<div class="page-title p-search__page-header">
+  <div class="p-search__results-label"><p>Showing results for:</p></div>
+  <h2 class="page-title" data-search-query></h2>
+</div>
+
+<div class="post-list-search post-list" data-search-results>
+  <div class="post-list-search__no-results">
+    <h2 class="page-title--no-results ">No results ｡°(°.◜ᯅ◝°)°｡</h2>
+  </div>
+  <ul id="resultsList" class="post-list-search__card-list">
+    <li data-search-result class="post-list-search__result">
+      <div class="postcard" style="--predominant-color: rgb(10,10,10)" data-predominant-color>
+        <a href="" data-href >
+          <div class="postcard__thumbnail-wrapper">
+            <picture>
+              <img data-thumbnail alt="close up on a hand giving the peace sign" class="postcard__thumbnail"
+                src="/assets/img/peace_small.png" width="400" loading="lazy" decoding="async">
+            </picture>
+          </div>
+
+          <div class="postcard__meta">
+            <div class="postcard__title" data-title></div>
+            <div class="postcard__date" data-date></div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </li>
+  </ul>
+</div>
+</div>

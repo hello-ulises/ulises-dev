@@ -1,0 +1,20 @@
+---
+layout: default
+title: events
+permalink: "/events/{% unless pagination.pageNumber == 0 %}{{ pagination.pageNumber | plus: 1 }}/{% endunless %}index.html"
+item_type: 'events'
+pagination:
+  data: collections.pastEvents
+  alias: "past_events"
+  reverse: true
+  size: 12
+---
+
+{% include "page-header.html" %%}
+
+{% assign featured_items = collections.events | upcoming %}
+{% include "post-list-featured.html", header_title: 'Upcoming' %}
+
+{% include "post-list-past.html", past_items: past_events %%}
+
+{% include "pagination.html" %}
