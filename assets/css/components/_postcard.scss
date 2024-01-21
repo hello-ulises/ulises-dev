@@ -1,0 +1,28 @@
+.postcard a {
+  display: block;
+  width: fit-content;
+  text-decoration: none;
+
+  .postcard__thumbnail-wrapper {
+    background-color: $color__white;
+    transition: background-color $duration--long $easing--bezier-ease-out;
+
+    picture {
+      transition: filter $duration--long $easing--bezier-ease-out;
+    }
+  }
+
+  &:hover {
+    .postcard__thumbnail-wrapper {
+      background-color: var(--predominant-color);
+      transition: background-color $duration--long $easing--bezier-ease-in;
+      picture {
+        filter: invert(1) grayscale(100%);
+        mix-blend-mode: screen;
+      }
+    }
+    .postcard__meta {
+      color: var(--predominant-color);
+    }
+  }
+}

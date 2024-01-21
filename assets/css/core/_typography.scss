@@ -1,0 +1,84 @@
+@use "sass:color";
+
+@font-face {
+  font-family: Lars;
+  src: url("../font/Lars-Regular.woff2") format("woff2"),
+    url("../font/Lars-Regular.woff") format("woff");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Times New Roman Seven";
+  src: url("../font/TimesNRSevenMT-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Kadisoka";
+  src: url("../font/kadisoka_script.woff") format("woff");
+}
+
+$serif: (
+  font-family: "Times New Roman Seven, Times New Roman, serif",
+  font-kerning: normal,
+  font-variant-ligatures: common-ligatures,
+  -moz-osx-font-smoothing: grayscale,
+  -webkit-font-smoothing: antialiased,
+  color: var(--text-color),
+) !default;
+
+$sans: (
+  font-family: "Lars, 'Helvetica Neue', sans-serif",
+  font-variant-ligatures: common-ligatures,
+  -moz-osx-font-smoothing: grayscale,
+  -webkit-font-smoothing: antialiased,
+  color: var(--text-color),
+) !default;
+
+$rootsize: (
+  1: 14px,
+);
+
+// Setting root sizes and base styles.
+html {
+  font-size: map-get($rootsize, 1);
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  @include get-map-values($sans);
+}
+
+h1,
+h2 {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+p {
+  @include get-map-values($serif);
+  letter-spacing: -0.01rem;
+}
+
+button.button {
+  @include get-map-values($sans);
+  background: unset;
+  border: unset;
+}
+
+a {
+  color: var(--text-color);
+  transition: color $duration--medium $easing--bezier-standard;
+  &:hover {
+    color: var(--link-hover-color);
+  }
+}
+
+ul {
+  list-style: none;
+  padding-left: unset;
+}

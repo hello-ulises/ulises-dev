@@ -1,0 +1,146 @@
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: fit-content;
+  @include boxshadow;
+  background-color: var(--background-color);
+  z-index: 99;
+
+  .nav__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr auto;
+    padding-left: $spacing-03;
+    padding-right: $spacing-03;
+  }
+
+  // nav menu toggle
+  @include get-header-height("height");
+  transition: height $duration--xlong $easing--bezier-ease-out;
+
+  .nav__links-list {
+    transition: all $duration--xlong $easing--bezier-ease-out;
+    opacity: 0;
+    transform: translateY(-50vh);
+    height: 0;
+  }
+
+  &.nav--open {
+    height: 27em;
+  }
+
+  &.nav--open .nav__page-title {
+    margin-bottom: $spacing-03;
+  }
+
+  &.nav--open .nav__links-list {
+    opacity: 1 !important;
+    transform: translateY(0);
+    height: 100%;
+  }
+
+  &.nav--open .nav__header-noun {
+    opacity: 0;
+  }
+
+  // other styles
+  .nav__header-title,
+  .nav__page-title,
+  .nav__links-list,
+  .nav__action .button {
+    @include get-map-values($serif);
+    font-size: 1.5rem;
+    margin-top: $spacing-01;
+
+    @include breakpoint("medium") {
+      font-size: 2rem;
+    }
+  }
+
+  .nav__header-noun {
+    position: absolute;
+    display: none;
+    padding-left: 0.5rem;
+    transition: opacity $duration--medium $easing--bezier-standard;
+  }
+
+  .nav__page-title {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .nav__links-list {
+    text-align: center;
+    text-transform: uppercase;
+    a {
+      text-decoration: none;
+    }
+    > li:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+    a + ul {
+      margin-top: 1rem;
+    }
+  }
+
+  .nav__links-about {
+    text-transform: capitalize;
+    li {
+      margin-top: $spacing-01;
+    }
+
+    @include breakpoint("medium") {
+      display: flex;
+
+      li:not(:last-child) {
+        padding-right: 3rem;
+      }
+    }
+  }
+
+  .nav__action {
+    justify-self: end;
+  }
+
+  .nav__close {
+    margin-left: $spacing-02;
+    a::before,
+    a::after {
+      content: " ";
+      display: block;
+      position: relative;
+      top: -0.25rem;
+      height: 2rem;
+      width: 2rem;
+    }
+
+    a::before {
+      border-bottom: 2px solid var(--text-color);
+      transform: rotate(45deg) translateX(0.5rem);
+    }
+    a::after {
+      border-top: 2px solid var(--text-color);
+      transform: rotate(-45deg) translateX(0.5rem);
+    }
+  }
+}
+
+// page specific styles
+
+.p-home {
+  .nav__header-noun {
+    display: inline;
+  }
+}
+
+.p-events .nav__links-list #events {
+  display: none;
+}
+
+.p-projects .nav__links-list #projects {
+  display: none;
+}
+
+.p-about .nav__links-list #about {
+  display: none;
+}

@@ -1,0 +1,26 @@
+.p-search {
+  .post-list-search__no-results {
+    display: none;
+  }
+
+  .no-results {
+    .post-list-search__card-list {
+      display: none;
+    }
+    .post-list-search__no-results {
+      display: block;
+    }
+  }
+
+  .p-search__page-header {
+    margin-bottom: 10.5rem;
+  }
+
+  .p-search__results-label {
+    font-size: 1.5rem;
+  }
+  .p-search__page-header .page-title {
+    margin-top: 0;
+    font-size: 4rem;
+  }
+}
