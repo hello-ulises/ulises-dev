@@ -1,4 +1,9 @@
 .page-header {
+  margin-bottom: 2rem;
+  @include breakpoint("medium") {
+    margin-bottom: 2.25rem;
+  }
+
   h2 {
     font-size: 2rem;
     text-transform: capitalize;
