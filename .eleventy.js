@@ -24,6 +24,12 @@ let markdownItAttrs = require("markdown-it-attrs");
 const md = new markdownIt(mdOptions);
 md.use(markdownItAttrs);
 
+// returns validated item type from list of tags
+function getItemType(tags) {
+  const itemType = ITEM_TYPES.filter((e) => tags && tags.includes(e));
+  return itemType[0];
+}
+
 module.exports = (eleventyConfig) => {
   // search index
   eleventyConfig.addGlobalData("searchIndex", []);
@@ -185,12 +191,12 @@ module.exports = (eleventyConfig) => {
   eleventyConfig.addFilter("urlPath", (item) => {
     let urlPath;
     // need to test for null when using filter in directory js data file
-    const itemType = ITEM_TYPES.filter((e) => item?.tags.includes(e));
     // check for whether this is an allowed collection item "type"
-    if (itemType.length) {
+    const itemType = getItemType(item.tags);
+    if (itemType) {
       let year = item.event_date || item.date;
       year = new Date(year).getFullYear();
-      urlPath = `/${itemType[0]}/${year}/${item.page.fileSlug}.html`;
+      urlPath = `/${itemType}/${year}/${item.page.fileSlug}.html`;
     }
     return urlPath;
   });
@@ -200,10 +206,14 @@ module.exports = (eleventyConfig) => {
     return md.render(data);
   });
 
+  // returns item type of current item
+  eleventyConfig.addLiquidFilter("itemType", (tags) => {
+    return getItemType(tags);
+  });
+
   // whether and which title to display in the nav bar
   eleventyConfig.addLiquidFilter("navTitle", (title, tags) => {
-    const itemType = ITEM_TYPES.filter((e) => tags && tags.includes(e));
-    let navTitle = itemType[0] || title;
+    let navTitle = getItemType(tags) || title;
 
     return NAV_TITLES_TO_SKIP.includes(title) ? undefined : navTitle;
   });

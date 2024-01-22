@@ -3,8 +3,8 @@
 
 {% include "head.html" %}
 
-{% capture pageClass %}{% if layout == "post-page" %}{{ layout }}{% else %}{{ title }}{% endif %}{% endcapture %}
-<body class="l-default p-{{ pageClass }}">
+{% capture pageClasses %}{% if layout == "post-page" %}{{ layout }}{% else %}{{ title }}{% endif %} {{ tags | itemType  }}{% endcapture %}
+<body class="l-default p-{{ pageClasses }}">
   {% include "navigation.html" %}
   <div class="main-wrapper">
     {{ content }}
