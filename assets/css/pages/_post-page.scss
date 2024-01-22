@@ -43,6 +43,7 @@
 
   figcaption {
     @include get-map-values($sans);
+    margin-top: $spacing-02;
   }
 }
 
@@ -67,10 +68,10 @@
 }
 
 .post-page__content {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   @include breakpoint("medium") {
     p {
-      font-size: 1.5rem;
+      font-size: 1.75rem;
     }
   }
 }
