@@ -10,8 +10,9 @@
 @import "components/footer";
 @import "components/page";
 
-@import "pages/search";
+@import "pages/home";
 @import "pages/post-page";
+@import "pages/search";
 
 .l-default {
   --background-color: #{$color__white};
@@ -29,6 +30,9 @@
 }
 
 .main-wrapper {
-  @include get-header-height("margin-top");
   padding: $spacing-03;
+  margin-top: 3.5rem;
+  @include breakpoint("medium") {
+    margin-top: 10.5rem;
+  }
 }
