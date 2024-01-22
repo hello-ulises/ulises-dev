@@ -1,0 +1,44 @@
+.header-noun-scroll > span {
+  position: absolute;
+  top: 0;
+}
+
+.header-noun-scroll__wrapper {
+  display: inline-block;
+  position: relative;
+  left: 4rem;
+  height: 2.5rem;
+  overflow: hidden;
+}
+
+.header-noun-scroll__list {
+  display: inline-block;
+  transition: 300ms all;
+  margin-top: 0;
+  animation: slide 10s infinite alternate $easing--bezier-sharp 2s;
+}
+
+.header-noun-scroll__list span {
+  display: block;
+  padding-bottom: 0.25rem;
+}
+@keyframes slide {
+  0% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: calc(-1 * 2.5rem);
+  }
+  40% {
+    margin-top: calc(-2 * 2.5rem);
+  }
+  60% {
+    margin-top: calc(-3 * 2.5rem);
+  }
+  80% {
+    margin-top: calc(-4 * 2.5rem);
+  }
+  100% {
+    margin-top: calc(-5 * 2.5rem);
+  }
+}
