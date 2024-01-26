@@ -119,7 +119,7 @@ function handleMutation(mutations, el, oldNode) {
     e.preventDefault();
     let searchUrl = new URL(route.origin);
     searchUrl.searchParams.append("q", e.target[0].value);
-    searchUrl.pathname = "search";
+    searchUrl.pathname = "search/";
     window.location = searchUrl.toString();
   });
 
