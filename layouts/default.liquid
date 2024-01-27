@@ -3,12 +3,25 @@
 
 {% include "head.html" %}
 
-{% capture pageClasses %}{% if layout == "post-page" %}{{ layout }}{% else %}{{ title }}{% endif %} {{ tags | itemType  }}{% endcapture %}
-<body class="l-default p-{{ pageClasses }}">
+{% capture pageClass %}
+  {% if layout == "post-page" %}
+    {{ layout }}
+  {% else %}
+    {% if title == "events" or title == "projects"%}
+      post-type
+    {% else %}
+      {{ title }}
+    {% endif %}
+  {% endif %}
+{% endcapture %}
+
+  <body class="l-default {{ pageClass | strip | prepend: 'p-' }} {{ tags | itemType }}">
   {% include "navigation.html" %}
   <div class="main-wrapper">
+  <main>
     {{ content }}
-    </div>
+    </main>
+  </div>
   {% include "footer.html" %}
 
   <script type="text/javascript" src="/assets/js/main.js" defer></script>

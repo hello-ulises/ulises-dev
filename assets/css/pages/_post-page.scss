@@ -1,14 +1,21 @@
-.post-page {
-  display: flex;
-  justify-content: center;
+.p-post-page {
+  .main-wrapper main:not(.leaving) {
+    display: flex;
+    justify-content: center;
+    background-color: var(--background-color);
+  }
 }
 
-.post-page__wrapper {
+.l-default.p-post-page .main-wrapper main.leaving {
+  color: $color__black;
+}
+
+.p-post-page__wrapper {
   @include breakpoint("medium") {
     max-width: 68rem;
   }
 
-  .post-page__section {
+  .p-post-page__section {
     margin-bottom: 3.5rem;
     @include breakpoint("medium") {
       margin-bottom: 10.5rem;
@@ -16,7 +23,7 @@
   }
 }
 
-.post-page__header {
+.p-post-page__header {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -28,7 +35,7 @@
   }
 }
 
-.post-page__featured-img {
+.p-post-page__featured-img {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -47,17 +54,17 @@
   }
 }
 
-.post-page__metadata {
+.p-post-page__metadata {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 4rem;
-  .post-page__field {
+  .p-post-page__field {
     display: flex;
     flex-direction: column;
   }
 
-  .post-page__label,
-  .post-page__value {
+  .p-post-page__label,
+  .p-post-page__value {
     @include get-map-values($serif);
     margin-bottom: $spacing-01;
 
@@ -67,7 +74,7 @@
   }
 }
 
-.post-page__content {
+.p-post-page__content {
   font-size: 1.2rem;
   @include breakpoint("medium") {
     p {
