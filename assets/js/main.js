@@ -60,6 +60,21 @@ function renderSearchResults(results) {
 }
 
 /**
+ * update active pagination page link
+ */
+function updateActivePage() {
+  const path = window.location.pathname.split("/");
+  const pageNumber = path.filter((e) => e)?.[1] - 1 || 0;
+  document.querySelectorAll(".pagination__list li").forEach((e, i) => {
+    e.classList.remove("active");
+    if (i == pageNumber) {
+      e.classList.add("active");
+      e.querySelector("a").setAttribute("aria-disabled", true);
+    }
+  });
+}
+
+/**
  * Handle paging
  */
 async function handlePageTransition(e, to, el, targetSelector, parser) {
@@ -77,17 +92,21 @@ async function handlePageTransition(e, to, el, targetSelector, parser) {
 /**
  * Post transition cleanup
  */
-function handlePostpageTransition() {
+function updateClasses(classes) {
   let classList = document.querySelector("body").classList;
-  // @todo update to include projects
-  classList.add("events");
-  classList.add("p-post-page");
+  classes.forEach((c) => classList.add(c));
 }
 
 /**
  * Mutation observer callback
  */
-function handleMutation(mutations, el, oldNode, callback = undefined) {
+function handleMutation(
+  mutations,
+  el,
+  oldNode,
+  startCallback = undefined,
+  endCallback = undefined
+) {
   let newNode = mutations[0]?.addedNodes[0];
   // handle transition states
   if (newNode) {
@@ -98,8 +117,8 @@ function handleMutation(mutations, el, oldNode, callback = undefined) {
       "transitionstart",
       () => {
         newNode.classList.remove("entering");
-        if (callback) {
-          callback();
+        if (startCallback) {
+          startCallback();
         } else {
           // we need this for pagination
           el.removeChild(oldNode);
@@ -111,7 +130,9 @@ function handleMutation(mutations, el, oldNode, callback = undefined) {
     newNode.addEventListener(
       "transitionend",
       () => {
-        if (callback) {
+        if (endCallback) {
+          endCallback();
+        } else {
           el.removeChild(oldNode);
         }
       },
@@ -163,6 +184,13 @@ function handleMutation(mutations, el, oldNode, callback = undefined) {
 
   // handle events and projects routes
   if (/(events|projects)(\/\d+)?[\/]?$/.test(route.pathname)) {
+    // disable active pagination
+    updateActivePage();
+
+    // get item type
+    const path = window.location.pathname;
+    const itemType = path.split("/").filter((e) => e)[0];
+
     // card list pagination
     const cardListWrapper = document.querySelector(
       ".post-list-past__card-list-wrapper"
@@ -181,7 +209,13 @@ function handleMutation(mutations, el, oldNode, callback = undefined) {
 
     // init mutation observer
     const paginationObserver = new MutationObserver((mutations) => {
-      oldListNode = handleMutation(mutations, cardListWrapper, oldListNode);
+      oldListNode = handleMutation(
+        mutations,
+        cardListWrapper,
+        oldListNode,
+        null,
+        updateActivePage
+      );
     });
 
     paginationObserver.observe(cardListWrapper, mutationObserverOpts);
@@ -220,7 +254,7 @@ function handleMutation(mutations, el, oldNode, callback = undefined) {
         mutations,
         mainWrapper,
         oldMainNode,
-        handlePostpageTransition
+        updateClasses(["p-post-page", itemType])
       );
     });
 
