@@ -1,5 +1,9 @@
 .footer {
   background-color: var(--background-color);
+  transition: background-color $duration--long $easing--bezier-ease-in;
+
+  // not sure where this is being added
+  margin-top: -1rem;
   padding: 0 $spacing-03 calc(2 * $spacing-03) $spacing-03;
   > ul {
     > li {

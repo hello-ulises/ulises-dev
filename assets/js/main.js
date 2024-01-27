@@ -42,7 +42,6 @@ function getResultCard(result, card) {
  * Render search result cards
  */
 function renderSearchResults(results) {
-  // render search results
   let resultsCards = document.getElementById("resultsList");
   let card = document.querySelector("[data-search-result]");
 
@@ -63,23 +62,32 @@ function renderSearchResults(results) {
 /**
  * Handle paging
  */
-async function handlePaging(e, el, parser) {
+async function handlePageTransition(e, to, el, targetSelector, parser) {
   e.preventDefault();
-  const to = e.target.href;
   if (to) {
     let response = await fetch(to);
     let html = await response.text();
     let dom = parser.parseFromString(html, "text/html");
-    let nextCardList = dom.querySelector(".post-list-past__card-list");
-    el.appendChild(nextCardList);
+    let next = dom.querySelector(targetSelector);
+    el.appendChild(next);
     history.pushState(to, "", to);
   }
 }
 
 /**
+ * Post transition cleanup
+ */
+function handlePostpageTransition() {
+  let classList = document.querySelector("body").classList;
+  // @todo update to include projects
+  classList.add("events");
+  classList.add("p-post-page");
+}
+
+/**
  * Mutation observer callback
  */
-function handleMutation(mutations, el, oldNode) {
+function handleMutation(mutations, el, oldNode, callback = undefined) {
   let newNode = mutations[0]?.addedNodes[0];
   // handle transition states
   if (newNode) {
@@ -89,12 +97,27 @@ function handleMutation(mutations, el, oldNode) {
     oldNode.addEventListener(
       "transitionstart",
       () => {
-        setTimeout(() => {
-          newNode.classList.remove("entering");
+        newNode.classList.remove("entering");
+        if (callback) {
+          callback();
+        } else {
+          // we need this for pagination
           el.removeChild(oldNode);
-        }, 250);
+        }
       },
       { once: true }
+    );
+
+    newNode.addEventListener(
+      "transitionend",
+      () => {
+        if (callback) {
+          el.removeChild(oldNode);
+        }
+      },
+      {
+        once: true,
+      }
     );
   }
 
@@ -103,8 +126,11 @@ function handleMutation(mutations, el, oldNode) {
 
 (async () => {
   const route = window.location;
-  let mutationObserver;
-
+  const mutationObserverOpts = {
+    attributes: false,
+    childList: true,
+    subtree: false,
+  };
   // init navigation listeners
   const navMenuToggle = document.getElementById("js-nav-menu-toggle");
   const navMenuClasses = document.getElementById("nav").classList;
@@ -137,11 +163,14 @@ function handleMutation(mutations, el, oldNode) {
 
   // handle events and projects routes
   if (/(events|projects)(\/\d+)?[\/]?$/.test(route.pathname)) {
+    // card list pagination
     const cardListWrapper = document.querySelector(
       ".post-list-past__card-list-wrapper"
     );
+
     const parser = new DOMParser();
-    let oldNode = document.querySelector(".post-list-past__card-list");
+    let oldListNode = document.querySelector(".post-list-past__card-list");
+    let oldMainNode = document.querySelector("main");
 
     // for the back button, mimic history
     addEventListener("popstate", function (e) {
@@ -151,21 +180,50 @@ function handleMutation(mutations, el, oldNode) {
     });
 
     // init mutation observer
-    mutationObserver = new MutationObserver((mutations) => {
-      oldNode = handleMutation(mutations, cardListWrapper, oldNode);
+    const paginationObserver = new MutationObserver((mutations) => {
+      oldListNode = handleMutation(mutations, cardListWrapper, oldListNode);
     });
 
-    mutationObserver.observe(cardListWrapper, {
-      attributes: false,
-      childList: true,
-      subtree: false,
-    });
+    paginationObserver.observe(cardListWrapper, mutationObserverOpts);
 
     // add pagination listeners
     document
       .querySelector(".pagination__list")
       .addEventListener("click", (e) =>
-        handlePaging(e, cardListWrapper, parser)
+        handlePageTransition(
+          e,
+          e.target.href,
+          cardListWrapper,
+          ".post-list-past__card-list",
+          parser
+        )
       );
+
+    // postpage transition
+    const mainWrapper = document.querySelector(".main-wrapper");
+    const postcards = document.querySelectorAll(".postcard a");
+    postcards.forEach((postLink) => {
+      postLink.addEventListener("click", (e) =>
+        handlePageTransition(
+          e,
+          postLink.attributes.href.value,
+          mainWrapper,
+          "main",
+          parser
+        )
+      );
+    });
+
+    // init mutation observer
+    const postObserver = new MutationObserver((mutations) => {
+      oldMainNode = handleMutation(
+        mutations,
+        mainWrapper,
+        oldMainNode,
+        handlePostpageTransition
+      );
+    });
+
+    postObserver.observe(mainWrapper, mutationObserverOpts);
   }
 })();

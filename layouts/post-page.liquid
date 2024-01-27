@@ -2,38 +2,38 @@
 layout: default
 ---
 
-<div class="post-page">
-<div class="post-page__wrapper">
-  <div class="post-page__header post-page__section">
-    <h2 class="post-page__title">{{ title }}</h2>
+<div class="p-post-page">
+<div class="p-post-page__wrapper">
+  <div class="p-post-page__header post-page__section">
+    <h2 class="p-post-page__title">{{ title }}</h2>
   </div>
 
   {% if featured_img %}
-  <figure class="post-page__featured-img post-page__section">
+  <figure class="p-post-page__featured-img post-page__section">
     {% include "picture.html" metadata: imageMetadata %}
     <figcaption>Caption</figcaption>
   </figure>
   {% endif %%}
 
   {% if event_display_date %}
-  <div class="post-page__metadata post-page__section">
-    <div class="post-page__field">
-      <span class="post-page__value">{{ title }}</span>
+  <div class="p-post-page__metadata post-page__section">
+    <div class="p-post-page__field">
+      <span class="p-post-page__value">{{ title }}</span>
     </div>
-    <div class="post-page__field">
-      <span class="post-page__label">Date</span>
-      <span class="post-page__value">{{ event_display_date }}</span>
+    <div class="p-post-page__field">
+      <span class="p-post-page__label">Date</span>
+      <span class="p-post-page__value">{{ event_display_date }}</span>
     </div>
   {% if event_location %}
-  <div class="post-page__field">
-    <span class="post-page__label">Location</span>
-    <span class="post-page__value">{{ event_location }}</span>
+  <div class="p-post-page__field">
+    <span class="p-post-page__label">Location</span>
+    <span class="p-post-page__value">{{ event_location }}</span>
   </div>
   {% endif %}
   </div>
   {% endif %}
 
-  <div class="post-page__content post-page__section">
+  <div class="p-post-page__content post-page__section">
   {{ content }}
   </div>
 </div>
