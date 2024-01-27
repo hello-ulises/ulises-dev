@@ -1,3 +1,5 @@
+@use "sass:color";
+
 .pagination {
   margin-top: 2rem;
   li {
@@ -10,5 +12,15 @@
     margin-right: $spacing-01;
     padding: $spacing-01;
     box-shadow: 0px 0px 25px rgba($color__gray--50, 0.5);
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  li.active {
+    background-color: color.adjust($color__gray--20, $lightness: 5%);
+    pointer-events: none;
+    touch-action: none;
   }
 }
