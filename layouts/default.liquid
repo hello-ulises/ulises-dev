@@ -9,12 +9,9 @@
   {% else %}
     {{ title }}
   {% endif %}
-  {% if title == "events" or title == "projects"%}
-      post-type
-  {% endif %}
 {% endcapture %}
 
-  <body class="l-default {{ pageClass | strip | prepend: 'p-' }} {{ tags | itemType }}">
+  <body class="l-default {{ pageClass | strip | prepend: 'p-' }}{{ tags | itemType }}">
   {% include "navigation.html" %}
   <div class="main-wrapper">
   <main>

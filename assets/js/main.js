@@ -84,6 +84,12 @@ async function handlePageTransition(e, to, el, targetSelector, parser) {
     let html = await response.text();
     let dom = parser.parseFromString(html, "text/html");
     let next = dom.querySelector(targetSelector);
+    const clientHeight =
+      targetSelector == ".post-list-past__card-list"
+        ? el.clientHeight - 140
+        : 0;
+    window.scrollTo({ top: clientHeight, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: "smooth" });
     el.appendChild(next);
     history.pushState(to, "", to);
   }
@@ -105,7 +111,8 @@ function handleMutation(
   el,
   oldNode,
   startCallback = undefined,
-  endCallback = undefined
+  endCallback = undefined,
+  args = undefined
 ) {
   let newNode = mutations[0]?.addedNodes[0];
   // handle transition states
@@ -118,7 +125,7 @@ function handleMutation(
       () => {
         newNode.classList.remove("entering");
         if (startCallback) {
-          startCallback();
+          startCallback(args);
         } else {
           // we need this for pagination
           el.removeChild(oldNode);
@@ -131,7 +138,7 @@ function handleMutation(
       "transitionend",
       () => {
         if (endCallback) {
-          endCallback();
+          endCallback(args);
         } else {
           el.removeChild(oldNode);
         }
@@ -160,8 +167,13 @@ function handleMutation(
     navMenuClasses.toggle("nav--open");
   });
 
+  const searchboxToggle = document.querySelector(".searchbox");
+  searchboxToggle.addEventListener("click", (e) =>
+    searchboxToggle.classList.add("searchbox--open")
+  );
+
   // add search event listener
-  const searchInput = document.getElementById("search-form");
+  const searchInput = document.getElementById("searchbox__form");
   searchInput.addEventListener("submit", (e) => {
     e.preventDefault();
     let searchUrl = new URL(route.origin);
@@ -259,7 +271,9 @@ function handleMutation(
           mutations,
           mainWrapper,
           oldMainNode,
-          updateClasses(["p-post-page", itemType])
+          updateClasses,
+          null,
+          ["p-post-page", itemType]
         );
       });
 
