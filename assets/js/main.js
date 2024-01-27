@@ -89,7 +89,6 @@ async function handlePageTransition(e, to, el, targetSelector, parser) {
         ? el.clientHeight - 140
         : 0;
     window.scrollTo({ top: clientHeight, behavior: "smooth" });
-    window.scrollTo({ top: 0, behavior: "smooth" });
     el.appendChild(next);
     history.pushState(to, "", to);
   }
