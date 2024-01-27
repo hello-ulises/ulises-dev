@@ -7,11 +7,10 @@
   {% if layout == "post-page" %}
     {{ layout }}
   {% else %}
-    {% if title == "events" or title == "projects"%}
+    {{ title }}
+  {% endif %}
+  {% if title == "events" or title == "projects"%}
       post-type
-    {% else %}
-      {{ title }}
-    {% endif %}
   {% endif %}
 {% endcapture %}
 

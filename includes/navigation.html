@@ -7,7 +7,13 @@
     </div>
 
     <div class="nav__links">
-      {% if nav_title %}<div class="nav__page-title">{{ nav_title }}</div>{% endif %}
+      {% if nav_title %}
+      <div class="nav__page-title">
+        {% if nav_title == "search" %}
+        {%include "searchbox.html" %}{% else %}{{ nav_title }}
+        {% endif %}
+      </div>
+      {% endif %}
       <ul class="nav__links-list" id="nav-menu-links">
         <li id="events"><a href="/events">events</a></li>
         <li id="projects"><a href="/projects">projects</a></li>
@@ -20,11 +26,8 @@
           </ul>
         </li>
         <!-- <li><a href="/shop">shop</a></li> -->
-        <li>
-          <form role="search" id="search-form">
-            <input type="search" name="q" aria-label="Search through site content" />
-            <input type="submit" value="go">
-          </form>
+        <li id="search">
+          {% include "searchbox.html" %}
         </li>
       </ul>
     </div>

@@ -156,6 +156,12 @@
   }
 }
 
+.p-search {
+  .nav__links-list #search {
+    display: none;
+  }
+}
+
 .p-post-page {
   &.events,
   &.projects {
