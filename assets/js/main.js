@@ -207,23 +207,13 @@ function handleMutation(
       window.location = e.state ? e.state : route.href;
     });
 
-    // init mutation observer
-    const paginationObserver = new MutationObserver((mutations) => {
-      oldListNode = handleMutation(
-        mutations,
-        cardListWrapper,
-        oldListNode,
-        null,
-        updateActivePage
-      );
-    });
-
-    paginationObserver.observe(cardListWrapper, mutationObserverOpts);
-
-    // add pagination listeners
-    document
-      .querySelector(".pagination__list")
-      .addEventListener("click", (e) =>
+    /**
+     * Pagination
+     */
+    const pagination = document.querySelector(".pagination__list");
+    if (pagination) {
+      // add pagination listeners
+      pagination.addEventListener("click", (e) =>
         handlePageTransition(
           e,
           e.target.href,
@@ -233,31 +223,47 @@ function handleMutation(
         )
       );
 
+      // init mutation observer
+      const paginationObserver = new MutationObserver((mutations) => {
+        oldListNode = handleMutation(
+          mutations,
+          cardListWrapper,
+          oldListNode,
+          null,
+          updateActivePage
+        );
+      });
+
+      paginationObserver.observe(cardListWrapper, mutationObserverOpts);
+    }
+
     // postpage transition
     const mainWrapper = document.querySelector(".main-wrapper");
     const postcards = document.querySelectorAll(".postcard a");
-    postcards.forEach((postLink) => {
-      postLink.addEventListener("click", (e) =>
-        handlePageTransition(
-          e,
-          postLink.attributes.href.value,
+    if (postcards.length) {
+      postcards.forEach((postLink) => {
+        postLink.addEventListener("click", (e) =>
+          handlePageTransition(
+            e,
+            postLink.attributes.href.value,
+            mainWrapper,
+            "main",
+            parser
+          )
+        );
+      });
+
+      // init mutation observer
+      const postObserver = new MutationObserver((mutations) => {
+        oldMainNode = handleMutation(
+          mutations,
           mainWrapper,
-          "main",
-          parser
-        )
-      );
-    });
+          oldMainNode,
+          updateClasses(["p-post-page", itemType])
+        );
+      });
 
-    // init mutation observer
-    const postObserver = new MutationObserver((mutations) => {
-      oldMainNode = handleMutation(
-        mutations,
-        mainWrapper,
-        oldMainNode,
-        updateClasses(["p-post-page", itemType])
-      );
-    });
-
-    postObserver.observe(mainWrapper, mutationObserverOpts);
+      postObserver.observe(mainWrapper, mutationObserverOpts);
+    }
   }
 })();
