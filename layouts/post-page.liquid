@@ -4,19 +4,19 @@ layout: default
 
 <div class="p-post-page">
 <div class="p-post-page__wrapper">
-  <div class="p-post-page__header post-page__section">
+  <div class="p-post-page__header p-post-page__section">
     <h2 class="p-post-page__title">{{ title }}</h2>
   </div>
 
   {% if featured_img %}
-  <figure class="p-post-page__featured-img post-page__section">
+  <figure class="p-post-page__featured-img p-post-page__section">
     {% include "picture.html" metadata: imageMetadata %}
     <figcaption>Caption</figcaption>
   </figure>
   {% endif %%}
 
   {% if event_display_date %}
-  <div class="p-post-page__metadata post-page__section">
+  <div class="p-post-page__metadata p-post-page__section">
     <div class="p-post-page__field">
       <span class="p-post-page__value">{{ title }}</span>
     </div>
@@ -33,7 +33,7 @@ layout: default
   </div>
   {% endif %}
 
-  <div class="p-post-page__content post-page__section">
+  <div class="p-post-page__content p-post-page__section">
   {{ content }}
   </div>
 </div>
