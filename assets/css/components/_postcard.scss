@@ -4,20 +4,19 @@
   text-decoration: none;
 
   .postcard__thumbnail-wrapper {
-    background-color: $color__white;
-    transition: background-color $duration--long $easing--bezier-ease-out;
+    background-color: transparent;
+    transition: background-color $duration--short $easing--bezier-sharp;
 
     picture {
-      transition: filter $duration--long $easing--bezier-ease-out;
+      transition: filter $duration--short $easing--bezier-standard;
     }
   }
 
   &:hover {
     .postcard__thumbnail-wrapper {
       background-color: var(--predominant-color);
-      transition: background-color $duration--long $easing--bezier-ease-in;
       picture {
-        filter: invert(1) grayscale(100%);
+        filter: grayscale(100%) invert(1);
         mix-blend-mode: screen;
       }
     }

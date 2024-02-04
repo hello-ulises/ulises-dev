@@ -2,10 +2,6 @@
 title: Submit Your Book
 date: 2019-11-12T18:59:54.285Z
 categories: right
-published: true
-tags:
-  - projects
-featured_img: /assets/img/tothewholewideworld.jpg
 ---
 
 Ulises is dedicated to artists’ books and independent art publications. We aim to support people who make books and expand the boundaries of what art publishing can be. If you have a publication that you would like Ulises to consider for our shop, please complete the **[Publication Review Form](https://formfacade.com/public/112249199778780145474/all/form/1FAIpQLSe1SAV81fyD0-95YBEViGFzc2j3Bo9deIDyjHSNJV4hPIYSVQ).**
