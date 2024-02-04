@@ -4,10 +4,8 @@ date: "2019-12-01T21:48-0500"
 event_display_date: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun
 categories: left
 tags:
-  - events
-  - sticky
-  - mobile-only
-published: false
+  - shop
+published: true
 featured_img: /assets/img/pasp.gif
 ---
 

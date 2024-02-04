@@ -13,8 +13,9 @@
 }
 
 @font-face {
-  font-family: "Kadisoka";
-  src: url("../font/kadisoka_script.woff") format("woff");
+  font-family: "Giddyup";
+  src: url("../font/giddyupstd-webfont.woff2") format("woff2"),
+    url("../font/giddyupstd-webfont.woff") format("woff");
 }
 
 $serif: (
@@ -28,6 +29,14 @@ $serif: (
 
 $sans: (
   font-family: "Lars, 'Helvetica Neue', sans-serif",
+  font-variant-ligatures: common-ligatures,
+  -moz-osx-font-smoothing: grayscale,
+  -webkit-font-smoothing: antialiased,
+  color: var(--text-color),
+) !default;
+
+$giddyup: (
+  font-family: "Giddyup, sans-serif",
   font-variant-ligatures: common-ligatures,
   -moz-osx-font-smoothing: grayscale,
   -webkit-font-smoothing: antialiased,
@@ -70,6 +79,14 @@ button.button {
   @include get-map-values($sans);
   background: unset;
   border: unset;
+}
+
+.shop {
+  h2,
+  a {
+    @include get-map-values($giddyup);
+    text-transform: capitalize;
+  }
 }
 
 a {

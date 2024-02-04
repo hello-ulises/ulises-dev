@@ -7,7 +7,7 @@ const ColorThief = require("colorthief");
 
 const EXCLUDE_IMG_TYPE = ["gif"];
 // valid collection item "types" set in tags
-const ITEM_TYPES = ["events", "projects"];
+const ITEM_TYPES = ["events", "projects", "shop"];
 // which title to skip in rendering navigation
 const NAV_TITLES_TO_SKIP = ["home"];
 
@@ -125,7 +125,12 @@ module.exports = (eleventyConfig) => {
     const featuredImg = data.featured_img;
     const urlPath = data.page.url;
 
-    if (!data.published || !featuredImg || !urlPath) {
+    // skip if no img or url except for meta/about
+    if (
+      !data.published ||
+      !featuredImg ||
+      (!data.tags.includes("meta") && !urlPath)
+    ) {
       return undefined;
     }
 
@@ -139,19 +144,22 @@ module.exports = (eleventyConfig) => {
     });
 
     // add post to search index
-    let post = {
-      title: data.title,
-      urlPath: urlPath,
-      featuredImg: data.featured_img,
-      thumbnail: {
-        src: metadata.jpeg[0].url,
-        width: metadata.jpeg[metadata.jpeg.length - 1].width,
-        alt: "test",
-        predominantColor:
-          eleventyConfig.globalData.predominantColors[data.featured_img],
-      },
-    };
-    eleventyConfig.globalData.searchIndex.push(post);
+    if (urlPath != false) {
+      let post = {
+        title: data.title,
+        urlPath: urlPath,
+        featuredImg: data.featured_img,
+        thumbnail: {
+          src: metadata.jpeg[0].url,
+          width: metadata.jpeg[metadata.jpeg.length - 1].width,
+          alt: "test",
+          predominantColor:
+            eleventyConfig.globalData.predominantColors[data.featured_img],
+        },
+      };
+      eleventyConfig.globalData.searchIndex.push(post);
+    }
+
     return metadata;
   });
 

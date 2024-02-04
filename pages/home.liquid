@@ -10,4 +10,5 @@ permalink: /index.html
 {% assign events_link = '<a href="/events">Events</a>' %}
 {% include "post-list-featured.html", header_title: events_link, featured_items: collections.events %}
 
-{% comment %} <h2>Shop</h2> {% endcomment %}
+{% include "post-list-past.html", header_title: "Shop", past_items: collections.shop, tag: 'shop' %}
+

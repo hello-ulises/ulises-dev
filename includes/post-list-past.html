@@ -2,7 +2,7 @@
 {% assign header_title = "Past" %}
 {% endunless %}
 
-<div class="post-list-past post-list">
+<div class="post-list-past post-list {% if tag %}{{ tag }}{% endif %}" {% if tag %}id="{{ tag }}" {% endif %}>
   <h2>{{ header_title }}</h2>
   <div class="post-list-past__card-list-wrapper">
     <ul class="post-list-past__card-list">

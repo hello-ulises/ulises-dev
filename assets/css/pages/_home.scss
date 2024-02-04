@@ -3,7 +3,8 @@
     text-decoration: none;
     cursor: pointer;
   }
-  .post-list-featured {
+  .post-list-featured,
+  .post-list-past {
     h2 {
       font-size: 2.75rem;
       text-align: center;
@@ -13,5 +14,9 @@
     @include breakpoint("medium") {
       margin-bottom: 10.5rem;
     }
+  }
+
+  #shop h2 {
+    font-size: 4rem;
   }
 }

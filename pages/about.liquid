@@ -3,3 +3,27 @@ layout: default
 title: about
 permalink: /about/
 ---
+
+{% for card in collections.meta %}
+{% if card.data.tags contains 'about' %}
+{% assign about = card %}
+{% endif %}
+{% endfor %}
+
+<div class="p-about">
+<div class="p-about__wrapper">
+
+{% if about.data.featured_img %}
+  <figure class="p-post-page__featured-img p-post-page__section">
+    {% include "picture.html" metadata: about.data.imageMetadata %}
+    <figcaption>Caption</figcaption>
+  </figure>
+{% endif %%}
+
+
+<div class="p-about__content p-about__section">
+  {{ about.content }}
+
+</div>
+</div>
+</div>
