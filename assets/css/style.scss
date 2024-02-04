@@ -25,9 +25,10 @@ $background--dark: $color__black;
 @import "components/pagination";
 @import "components/footer";
 @import "components/page";
-@import "components/header-noun-scroll";
+@import "components/madlib";
 @import "components/searchbox";
 
+@import "pages/about";
 @import "pages/home";
 @import "pages/post-page";
 @import "pages/post-type";

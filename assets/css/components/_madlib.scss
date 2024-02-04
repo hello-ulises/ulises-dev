@@ -1,0 +1,44 @@
+.madlib > span {
+  position: absolute;
+  top: 0;
+}
+
+.madlib__wrapper {
+  display: inline-block;
+  position: relative;
+  left: 3.65rem;
+  height: 2.5rem;
+  overflow: hidden;
+}
+
+.madlib__list {
+  display: inline-block;
+  margin-top: 0;
+}
+
+.madlib__list span {
+  display: block;
+  opacity: 0;
+  max-height: 0;
+
+  &.active {
+    opacity: 1;
+    max-height: 100%;
+    animation: slide 3s $easing--bezier-standard;
+  }
+}
+
+@keyframes slide {
+  0% {
+    margin-top: calc(3 * 2.5rem);
+  }
+  20% {
+    margin-top: calc(0 * 2.5rem);
+  }
+  40% {
+    margin-top: calc(0 * 2.5rem);
+  }
+  100% {
+    margin-top: calc(-3 * 2.5rem);
+  }
+}

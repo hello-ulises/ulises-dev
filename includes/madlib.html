@@ -1,0 +1,14 @@
+{% for card in collections.meta %}
+{% if card.data.tags contains 'madlib' %}
+{% assign madlib = card %}
+{% endif %}
+{% endfor %}
+<span class="madlib"><span>is a</span>
+  <div class="madlib__wrapper">
+    <div class="madlib__list">
+      {% for n in madlib.data.values %}
+      <span>{{ n }}</span>
+      {% endfor %}
+    </div>
+  </div>
+</span>

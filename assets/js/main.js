@@ -181,6 +181,24 @@ function handleMutation(
     window.location = searchUrl.toString();
   });
 
+  // handle home route
+  if (route.pathname == "/") {
+    // handle header madlib
+    const madlib = document.querySelector(".madlib__list");
+    let nounCount = madlib.children.length;
+    let activeIndex = nounCount % 2 ? (nounCount - 1) / 2 : nounCount / 2;
+    madlib.children[activeIndex].classList.add("active");
+
+    setInterval(() => {
+      for (let n of madlib.children) {
+        n.classList.remove("active");
+      }
+      let oldNode = madlib.removeChild(madlib.children[0]);
+      madlib.appendChild(oldNode);
+      madlib.children[activeIndex].classList.add("active");
+    }, 2000);
+  }
+
   // handle search route
   if (route.pathname.includes("/search")) {
     const fuse = await initFuse();

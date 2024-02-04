@@ -42,7 +42,7 @@
   }
 
   &.nav--open {
-    height: 27em;
+    height: 30em;
   }
 
   &.nav--open .nav__links-list {
@@ -51,15 +51,15 @@
     height: 100%;
   }
 
-  &.nav--open .header-noun-scroll {
+  &.nav--open .madlib {
     opacity: 0;
   }
 
   // other styles
-  .nav__header-title,
   .nav__page-title,
   .nav__links-list,
-  .nav__action .button {
+  .nav__action .button,
+  .madlib__list {
     @include get-map-values($serif);
     font-size: 1.5rem;
     @include breakpoint("medium") {
@@ -67,7 +67,7 @@
     }
   }
 
-  .header-noun-scroll {
+  .madlib {
     position: absolute;
     display: none;
     padding-left: 0.5rem;
@@ -88,6 +88,10 @@
     }
     a + ul {
       margin-top: 1rem;
+    }
+
+    .shop a {
+      font-size: 3rem;
     }
   }
 
@@ -137,27 +141,27 @@
 // page specific styles
 
 .p-home {
-  .header-noun-scroll {
+  .madlib {
     display: inline;
   }
 }
 
 .p-events,
 .p-post-page.events {
-  .nav__links-list #events {
+  .nav__links-list .events {
     display: none;
   }
 }
 
 .p-projects,
 .p-post-page.projects {
-  .nav__links-list #projects {
+  .nav__links-list .projects {
     display: none;
   }
 }
 
 .p-search {
-  .nav__links-list #search {
+  .nav__links-list .search {
     display: none;
   }
 }
@@ -171,6 +175,6 @@
   }
 }
 
-.p-about .nav__links-list #about {
+.p-about .nav__links-list .about {
   display: none;
 }
