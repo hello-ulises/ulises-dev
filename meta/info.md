@@ -3,7 +3,8 @@ title: info
 date: "2017-02-22T09:58-0500"
 tags:
   - about
-featured_img: /assets/img/IMG_4418.JPG
+featured_img:
+  src: /assets/img/IMG_4418.JPG
 published: true
 ---
 

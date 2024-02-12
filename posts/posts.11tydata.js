@@ -9,7 +9,7 @@ module.exports = {
     },
     async predominantColor(data) {
       const predominantColor = await this.getPredominantColor(
-        data.featured_img
+        data?.featured_img?.src
       );
       return predominantColor;
     },

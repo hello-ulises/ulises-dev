@@ -129,12 +129,13 @@ module.exports = (eleventyConfig) => {
     if (
       !data.published ||
       !featuredImg ||
+      !featuredImg.src ||
       (!data.tags.includes("meta") && !urlPath)
     ) {
       return undefined;
     }
 
-    const metadata = await Image(`.${featuredImg}`, {
+    const metadata = await Image(`.${featuredImg.src}`, {
       widths: [400, 800],
       urlPath: `/${eleventyConfig.dir.images}`,
       outputDir: `./${eleventyConfig.dir.output}/${eleventyConfig.dir.images}`,
@@ -148,13 +149,13 @@ module.exports = (eleventyConfig) => {
       let post = {
         title: data.title,
         urlPath: urlPath,
-        featuredImg: data.featured_img,
+        featuredImg: featuredImg.src,
         thumbnail: {
           src: metadata.jpeg[0].url,
           width: metadata.jpeg[metadata.jpeg.length - 1].width,
-          alt: "test",
+          alt: featuredImg.alt || "",
           predominantColor:
-            eleventyConfig.globalData.predominantColors[data.featured_img],
+            eleventyConfig.globalData.predominantColors[featuredImg.src],
         },
       };
       eleventyConfig.globalData.searchIndex.push(post);
