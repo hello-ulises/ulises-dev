@@ -2,7 +2,6 @@
 date: "2017-08-11T10:29-0400"
 published: true
 title: Marwa Arsanios Screening and Conversation
-categories: left
 tags:
   - events
   - migrations

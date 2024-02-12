@@ -3,7 +3,6 @@ date: "2017-04-18T10:09-0400"
 published: false
 title: "Paper Cuts Reading "
 event_display_date: "Saturday, April 22, 2016, 7PM"
-categories: left
 tags:
   - events
   - migrations

@@ -2,7 +2,6 @@
 date: "2017-04-18T10:50-0400"
 published: true
 title: "Dear Reader: On Diasporic Intimacy"
-categories: left
 tags:
   - intimacy
   - events

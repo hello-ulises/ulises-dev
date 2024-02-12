@@ -2,7 +2,6 @@
 date: "2018-02-04T17:11-0500"
 published: true
 title: POSTPONED DUE TO EAGLES VICTORY PARADE! Ways of Being with BFAMFAPhD
-categories: left
 event_display_date: "Thursday, February 8"
 tags:
   - events

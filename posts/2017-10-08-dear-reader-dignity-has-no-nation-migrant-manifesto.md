@@ -2,7 +2,6 @@
 date: "2017-10-08T18:20-0400"
 published: true
 title: "Dear Reader: Dignity Has No Nationality & Migrant Manifesto"
-categories: left
 event_display_date: "Tuesday, October 10, 6–8PM"
 tags:
   - events

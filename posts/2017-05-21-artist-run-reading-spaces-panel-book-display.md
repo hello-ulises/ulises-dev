@@ -3,7 +3,6 @@ date: "2017-05-21T20:23-0400"
 published: true
 title: "Artist-Run Reading Spaces, Panel & Book Display"
 event_display_date: "Sunday, June 4, 3:30–5PM"
-categories: left
 tags:
   - events
 featured_img: /assets/img/18556623_310192286079730_3304069030822008828_o.jpg

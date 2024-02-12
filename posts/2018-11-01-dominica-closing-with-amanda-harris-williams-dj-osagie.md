@@ -3,7 +3,6 @@ date: "2018-11-01T22:34-0400"
 published: true
 title: Dominica Closing with Mandy Harris Williams + DJ Osagie
 event_display_date: "Sunday, November 4, 2–6 pm"
-categories: left
 tags:
   - events
 featured_img: /assets/img/IMG_6688.JPG

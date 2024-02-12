@@ -2,7 +2,6 @@
 date: "2020-01-25T15:30-0500"
 published: true
 title: "Sci-Fi Sunday, Reading"
-categories: left
 tags:
   - events
 event_display_date: "Sunday, January 26, 2020,  2–3pm"

@@ -2,7 +2,6 @@
 title: Publishing As Practice
 date: "2019-12-01T21:48-0500"
 event_display_date: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun
-categories: left
 tags:
   - shop
 published: true

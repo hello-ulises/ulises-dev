@@ -3,7 +3,6 @@ date: "2019-08-17T15:02-0400"
 published: true
 title: "Art and Labor: What's Next After a Summer of Struggle? "
 event_display_date: "Thursday, August 29, 6–8pm"
-categories: left
 tags:
   - events
 featured_img: /assets/img/Screen Shot 2019-08-17 at 4.02.28 PM.png

@@ -3,7 +3,6 @@ date: "2016-12-02T17:39-0500"
 event_display_date: Friday, December 2, 2016, 6PM
 published: true
 title: Steffani Jemison in Conversation
-categories: left
 tags:
   - events
   - active-voice

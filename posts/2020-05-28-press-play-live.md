@@ -2,7 +2,6 @@
 date: "2020-05-29T19:30-0400"
 published: true
 title: Press Play — LIVE!
-categories: left
 tags:
   - events
 event_display_date: "Sunday, May 31, 2–4PM"

@@ -3,7 +3,6 @@ date: "2017-05-15T10:42-0400"
 published: true
 title: Becky Suss Book Release
 event_display_date: "Saturday, May 20, 2017, 3–5PM"
-categories: left
 tags:
   - events
 featured_img: /assets/img/becksuss-book-release.jpg

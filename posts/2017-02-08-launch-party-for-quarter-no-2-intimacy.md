@@ -2,7 +2,6 @@
 date: "2017-02-10T18:19-0500"
 published: true
 title: Launch Party Quarter No. 2 Intimacy
-categories: left
 tags:
   - events
   - intimacy

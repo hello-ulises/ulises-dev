@@ -2,7 +2,6 @@
 date: "2018-01-20T12:56-0500"
 published: true
 title: '"I guess I’m never sure that print is truly linear."'
-categories: left
 event_display_date: "Saturday, January 27, 2–3:30PM"
 tags:
   - events

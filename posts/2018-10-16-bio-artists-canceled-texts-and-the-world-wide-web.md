@@ -2,7 +2,6 @@
 date: "2018-10-16T22:32-0400"
 published: true
 title: "Bio: Artists’ Canceled Texts and the World Wide Web"
-categories: left
 tags:
   - events
 event_display_date: "Saturday, October 27,  6pm"

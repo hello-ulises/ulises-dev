@@ -2,7 +2,6 @@
 date: "2016-12-09T15:30-0500"
 published: true
 title: "Odds & Ends Book Fair"
-categories: left
 tags:
   - events
 event_display_date: "December 9, 2016, 11:30AM–4:30PM"

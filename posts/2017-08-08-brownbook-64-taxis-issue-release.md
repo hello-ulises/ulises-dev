@@ -2,7 +2,6 @@
 date: "2017-08-08T12:51-0400"
 published: true
 title: "Brownbook 64: Taxis Issue Release"
-categories: left
 event_display_date: "Saturday, August 12, 4–6pm"
 tags:
   - events

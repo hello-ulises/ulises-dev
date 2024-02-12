@@ -2,7 +2,6 @@
 date: "2018-01-20T12:50-0500"
 published: true
 title: Reading Out Loud
-categories: left
 event_display_date: "Sunday, January 28, 2–4PM"
 tags:
   - events

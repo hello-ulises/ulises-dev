@@ -2,7 +2,6 @@
 title: No. 2 Intimacy
 date: "2017-02-08T01:34-0500"
 event_display_date: February 11 through June 11, 2017
-categories: left
 tags:
   - projects
   - intimacy

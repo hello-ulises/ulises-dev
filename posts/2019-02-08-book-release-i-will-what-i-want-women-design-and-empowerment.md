@@ -2,7 +2,6 @@
 date: "2019-02-08T16:00-0500"
 published: true
 title: "Book Release: I Will What I Want: Women, Design, and Empowerment"
-categories: left
 tags:
   - events
 event_display_date: "Saturday, February 16, 2–4PM"

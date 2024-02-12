@@ -2,7 +2,6 @@
 date: "2017-05-04T20:30-0400"
 published: true
 title: High Tide Zine Release
-categories: left
 event_display_date: "Sunday, May 7, 2017, 4:00–6:00PM"
 tags:
   - events

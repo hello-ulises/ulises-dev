@@ -2,7 +2,6 @@
 title: Big Summer Book Sale
 date: 2022-06-22T16:50:44.237Z
 event_display_date: Saturday, July 16, 2022 from 12–6pm
-categories: left
 tags:
   - events
 published: true

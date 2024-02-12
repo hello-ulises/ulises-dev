@@ -2,7 +2,6 @@
 title: See you at the NYABF
 date: 2022-09-16T15:42:32.386Z
 event_display_date: October 13–16, 2022
-categories: left
 tags:
   - events
   - featured

@@ -3,7 +3,6 @@ date: "2019-04-02T22:58-0400"
 published: true
 title: 2019 COMMON FIELD PHILADELPHIA CONVENING
 event_display_date: "April 25-28, 2019"
-categories: left
 tags:
   - events
 featured_img: /assets/img/commonfield_facebook_post_3.png

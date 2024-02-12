@@ -180,11 +180,6 @@ module.exports = (eleventyConfig) => {
     return `rgb(${predominantColor[0]},${predominantColor[1]},${predominantColor[2]})`;
   });
 
-  // add category filter
-  eleventyConfig.addFilter("byCategory", (collection, category) =>
-    collection.filter((e) => e.data.categories == category)
-  );
-
   // add upcoming filter
   eleventyConfig.addFilter("upcoming", (collection) => {
     const now = new Date();

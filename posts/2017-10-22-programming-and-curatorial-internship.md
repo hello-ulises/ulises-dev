@@ -2,7 +2,6 @@
 date: "2017-10-22T11:51-0400"
 published: false
 title: Programming and Curatorial Internship
-categories: left
 tags:
   - events
 featured_img: /assets/img/Internship.jpg

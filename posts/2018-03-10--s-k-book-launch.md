@@ -2,7 +2,6 @@
 date: "2018-03-10T12:14-0500"
 published: true
 title: Àsìkò Book Launch
-categories: left
 event_display_date: "Sunday, February 11, 2–4PM"
 tags:
   - events

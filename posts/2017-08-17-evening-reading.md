@@ -2,7 +2,6 @@
 date: "2017-08-17"
 published: true
 title: Reading Evening
-categories: left
 tags:
   - events
   - migrations

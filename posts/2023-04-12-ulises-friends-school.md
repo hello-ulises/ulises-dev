@@ -2,7 +2,6 @@
 title: Ulises Friends School
 date: 2023-04-12T01:45:18.682Z
 event_display_date: April 19-21, 2023
-categories: left
 tags:
   - projects
   - featured

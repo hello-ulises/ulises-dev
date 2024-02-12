@@ -2,7 +2,6 @@
 date: "2018-11-29T20:09-0500"
 published: true
 title: Reza Abdoh’s Showtapes and Short Films
-categories: left
 tags:
   - events
 event_display_date: "Wednesday, December 5,  6pm"

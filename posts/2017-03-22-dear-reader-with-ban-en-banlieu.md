@@ -2,7 +2,6 @@
 date: "2017-03-22T23:08-0400"
 published: true
 title: 'Dear Reader: "Ban en Banlieue"'
-categories: left
 tags:
   - events
   - intimacy

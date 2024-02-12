@@ -2,7 +2,6 @@
 title: Boston Art Book Fair
 date: 2022-10-30T20:12:36.721Z
 event_display_date: November 4-6, 2022
-categories: left
 tags:
   - events
   - featured

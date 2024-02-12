@@ -2,7 +2,6 @@
 date: "2020-10-14T15:52-0400"
 published: true
 title: REGISTER AND VOTE
-categories: left
 tags:
   - events
 event_display_date: "November 3, 2020"

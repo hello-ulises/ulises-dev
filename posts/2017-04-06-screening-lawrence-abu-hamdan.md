@@ -2,7 +2,6 @@
 date: "2017-04-06T11:57-0400"
 published: true
 title: "Screening: Lawrence Abu Hamdan"
-categories: left
 tags:
   - intimacy
   - events

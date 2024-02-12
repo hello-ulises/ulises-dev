@@ -2,7 +2,6 @@
 date: "2017-05-04T20:15-0400"
 published: true
 title: Philadelphia Art Book Fair
-categories: left
 tags:
   - events
   - intimacy

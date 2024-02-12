@@ -2,7 +2,6 @@
 date: "2018-02-05T17:00-0500"
 published: true
 title: "Presentation: The Center for Urban Pedagogy"
-categories: left
 event_display_date: "Saturday, February 10, 2–4PM"
 tags:
   - events

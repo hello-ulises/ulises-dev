@@ -3,7 +3,6 @@ date: "2019-03-10T10:00-0500"
 published: true
 title: "Book Launch: Faith Wilding, Daniel Tucker, and Shannon Stratton"
 event_display_date: "Thursday, March 14, 6:30–8PM"
-categories: left
 tags:
   - events
 featured_img: /assets/img/53674801_2119187174831506_8420242654633132032_n.jpg

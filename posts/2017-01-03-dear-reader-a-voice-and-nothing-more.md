@@ -3,7 +3,6 @@ date: "2017-01-03T22:33-0500"
 event_display_date: Tuesday, January 10, 2017, 6:30-8PM
 published: true
 title: "Dear Reader: A Voice and Nothing More"
-categories: left
 tags:
   - events
 featured_img: /assets/img/10-carrion_thumb-2.jpg

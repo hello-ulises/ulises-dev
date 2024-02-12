@@ -2,7 +2,6 @@
 date: "2017-03-22T22:53-0400"
 published: true
 title: '"Hyper Normalization" Screening'
-categories: left
 tags:
   - events
 event_display_date: "Friday, March 31, 2017, 7:30PM"

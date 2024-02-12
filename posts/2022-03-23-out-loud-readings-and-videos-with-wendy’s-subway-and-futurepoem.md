@@ -2,7 +2,6 @@
 title: "Out Loud: Readings and Videos with Wendy’s Subway and Futurepoem"
 date: 2022-03-23T02:11:04.650Z
 event_display_date: Friday, March 25, 2022 at 7pm
-categories: left
 tags:
   - events
 published: true

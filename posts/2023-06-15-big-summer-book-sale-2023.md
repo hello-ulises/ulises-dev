@@ -4,7 +4,6 @@ date: 2023-06-15T00:38:43.719Z
 event_display_date: Sunday, June 25, 2023
 event_date: 2024-01-31T00:38:43.719Z
 event_location: 1400 North American Ave
-categories: left
 tags:
   - events
   - featured

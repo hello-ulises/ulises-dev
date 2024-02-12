@@ -2,7 +2,6 @@
 date: "2017-03-07T22:12-0500"
 published: true
 title: "Love, Optimized: Workshop and Pop-Up Show"
-categories: left
 tags:
   - events
   - intimacy

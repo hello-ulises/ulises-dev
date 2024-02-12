@@ -2,7 +2,6 @@
 date: "2017-09-17T22:05-0400"
 published: true
 title: NY Art Book Fair
-categories: left
 tags:
   - events
 featured_img: /assets/img/IMG_1744-730x470.jpg

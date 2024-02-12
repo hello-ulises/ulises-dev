@@ -2,7 +2,6 @@
 date: "2018-07-16T20:59-0400"
 published: true
 title: Martine Syms/Dominica Residency Kickoff
-categories: left
 tags:
   - events
 event_display_date: "Sunday, July 22, 2–6pm"

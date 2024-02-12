@@ -2,7 +2,6 @@
 date: "2019-03-04T10:32-0500"
 published: true
 title: 'Carmen Winant''s "My Birth": Book Launch + Experimental Lecture'
-categories: left
 tags:
   - events
 event_display_date: "Thursday, March 7, 6:30–8:30PM"

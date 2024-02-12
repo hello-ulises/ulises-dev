@@ -2,7 +2,6 @@
 title: No. 1 Active Voice
 date: 2016-11-12
 event_display_date: November 12, 2016 through January 22, 2017
-categories: left
 tags:
   - projects
 published: true

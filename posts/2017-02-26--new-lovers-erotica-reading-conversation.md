@@ -3,7 +3,6 @@ date: "2017-02-26T15:06-0500"
 published: true
 title: '"New Lovers" Erotica Reading'
 event_display_date: "Saturday, March 4, 2017, 6:30–8PM"
-categories: left
 tags:
   - events
   - intimacy

@@ -1,7 +1,6 @@
 ---
 date: "2016-12-10T13:37-0500"
 published: false
-categories: left
 tags:
   - events
   - migrations

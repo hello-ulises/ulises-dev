@@ -2,7 +2,6 @@
 date: "2020-07-29T09:59-0400"
 published: true
 title: "A Certain Kind of Space: How We Sustain Each Other"
-categories: left
 tags:
   - events
 featured_img: /assets/img/_MG_6884 (1).jpg

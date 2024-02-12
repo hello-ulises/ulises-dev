@@ -4,7 +4,6 @@ published: true
 title: >-
   Philly Book Launch of "We Have the Great Discontent" with John Shahidi of
   Avril50
-categories: left
 tags:
   - events
 event_display_date: "Saturday, September 9 from 4–6 PM"

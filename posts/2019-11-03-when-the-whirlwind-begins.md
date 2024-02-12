@@ -3,7 +3,6 @@ date: "2019-11-03T16:50-0500"
 published: true
 title: When the Whirlwind Begins
 event_display_date: "November 8–December 11, 2019"
-categories: left
 tags:
   - events
 featured_img: /assets/img/PHILLY_SHOW_FINAL-11x17-forweb.jpg

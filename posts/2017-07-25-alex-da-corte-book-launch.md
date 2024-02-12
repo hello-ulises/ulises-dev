@@ -3,7 +3,6 @@ date: "2017-07-25T12:24-0400"
 published: true
 title: Alex da Corte Book Launch
 event_display_date: "Saturday, July 29, 2017, 3-6PM"
-categories: left
 tags:
   - events
 featured_img: /assets/img/alexdacorte.jpg

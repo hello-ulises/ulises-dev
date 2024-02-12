@@ -2,7 +2,6 @@
 date: "2018-05-30T18:43-0400"
 published: true
 title: 'IN TOO DEEP "Walking & Talking" '
-categories: left
 tags:
   - events
 event_display_date: "Thursday, May 31, 7:30–10PM"

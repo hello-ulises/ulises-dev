@@ -3,7 +3,6 @@ date: "2018-11-18T13:44-0500"
 published: true
 title: "Reza Abdoh: Theatre Visionary"
 event_display_date: "Thursday, November 29, 7–8:45pm"
-categories: left
 tags:
   - events
 featured_img: /assets/img/RezaAbdoh.jpg

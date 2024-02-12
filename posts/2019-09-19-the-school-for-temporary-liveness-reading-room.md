@@ -3,7 +3,6 @@ date: "2019-09-24T12:31-0400"
 published: true
 title: "The School for Temporary Liveness, Reading Room"
 event_display_date: "September 25 – October 2, 2019"
-categories: left
 tags:
   - projects
   - featured

@@ -3,7 +3,6 @@ date: "2019-03-16T16:19-0400"
 published: true
 title: "Communists Anonymous: First Gathering in Philadelphia"
 event_display_date: "Thursday, March 21, 7pm"
-categories: left
 tags:
   - events
 featured_img: /assets/img/54731340_2134431356640421_3886286576371630080_o.jpg

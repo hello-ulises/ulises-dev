@@ -2,7 +2,6 @@
 date: "2017-10-10T22:57-0400"
 published: true
 title: "Book Launch: Words, Books, and the Spaces They Inhabit"
-categories: left
 tags:
   - events
 event_display_date: "Sunday, October 15, 3–5PM"

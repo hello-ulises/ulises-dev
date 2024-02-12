@@ -2,7 +2,6 @@
 date: "2017-11-25T09:44-0500"
 published: true
 title: "Pablo Helguera: Combinatory Lecture"
-categories: left
 tags:
   - events
   - education

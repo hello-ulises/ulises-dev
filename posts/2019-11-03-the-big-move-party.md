@@ -3,7 +3,6 @@ date: "2019-11-03T16:33-0500"
 published: true
 title: The Big Move Party
 event_display_date: "Saturday, November 9, 2019"
-categories: left
 tags:
   - events
 featured_img: /assets/img/IMG_4418.JPG

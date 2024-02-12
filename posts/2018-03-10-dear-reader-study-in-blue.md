@@ -3,7 +3,6 @@ date: "2018-03-10T13:10-0500"
 published: true
 title: "Dear Reader: Study in Blue"
 event_display_date: "Tuesday, March 13, 6:30–8PM"
-categories: left
 tags:
   - events
   - education

@@ -41,13 +41,6 @@ collections:
         }
       - { name: "layout", label: "Layout", widget: "hidden", default: "post" }
       - {
-          name: "categories",
-          label: "Column",
-          widget: "select",
-          options: ["left", "right"],
-          required: false,
-        }
-      - {
           name: "tags",
           label: "Tags",
           widget: "select",

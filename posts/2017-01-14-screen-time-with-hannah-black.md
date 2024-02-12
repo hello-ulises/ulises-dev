@@ -3,7 +3,6 @@ date: "2017-01-14T19:09-0500"
 event_display_date: December 18, 2016, 4-5:30PM
 published: false
 title: Screen Time with Hannah Black
-categories: left
 tags:
   - events
 featured_img: /assets/img/fall-of-communism.png

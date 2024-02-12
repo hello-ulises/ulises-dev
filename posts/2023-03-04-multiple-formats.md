@@ -2,7 +2,6 @@
 title: Multiple Formats
 date: 2023-03-04T17:34:46.201Z
 event_display_date: March 16-18, 2023
-categories: left
 tags:
   - event
   - featured

@@ -3,7 +3,6 @@ date: "2016-12-18T17:43-0500"
 event_display_date: "Sunday, December 18, 2016, 4PM"
 published: true
 title: Screen Time with Hannah Black
-categories: left
 tags:
   - events
   - active-voice

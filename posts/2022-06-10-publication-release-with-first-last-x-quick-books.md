@@ -2,7 +2,6 @@
 title: First Last x Quick Books Publication Release
 date: 2022-06-10T14:00:23.058Z
 event_display_date: Saturday, June 25, 2022 at 2pm
-categories: left
 tags:
   - events
 published: true

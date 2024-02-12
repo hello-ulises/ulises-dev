@@ -2,7 +2,6 @@
 date: "2017-10-08T16:54-0400"
 published: true
 title: "Xaviera Simmons, Superunknown (Alive In The)"
-categories: left
 tags:
   - events
   - migrations

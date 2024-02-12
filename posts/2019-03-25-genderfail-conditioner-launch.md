@@ -2,7 +2,6 @@
 date: "2019-03-25T10:43-0400"
 published: true
 title: GenderFail "Conditioner" Publication Launch
-categories: left
 tags:
   - events
 event_display_date: "Sunday, March 31, 2–4PM"

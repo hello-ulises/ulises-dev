@@ -3,7 +3,6 @@ date: "2019-01-21T21:20-0600"
 published: true
 title: "Michael C. Vazquez: Surrealist Self-Fashioning"
 event_display_date: "Sunday, January 27, 2–4pm"
-categories: left
 tags:
   - events
 featured_img: /assets/img/50276847_2060641054019452_3595583347029442560_o.jpg

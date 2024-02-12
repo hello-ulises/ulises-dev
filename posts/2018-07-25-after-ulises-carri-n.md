@@ -2,7 +2,6 @@
 date: "2018-07-25T10:06-0400"
 published: true
 title: After Ulises (Carrión)
-categories: left
 tags:
   - events
 event_display_date: "Sunday, July 29, 2018, 2–4PM"

@@ -2,7 +2,6 @@
 date: "2017-04-12T18:32-0400"
 published: true
 title: The Third Rail Issue 10 Philadelphia Launch
-categories: left
 tags:
   - intimacy
   - events
