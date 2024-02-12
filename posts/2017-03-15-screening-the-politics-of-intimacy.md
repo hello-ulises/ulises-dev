@@ -6,7 +6,8 @@ event_display_date: "Tuesday, March 21, 2017, 6:30 – 8:30PM"
 tags:
   - intimacy
   - events
-featured_img: /assets/img/politics-of-intimacy.jpg
+featured_img:
+  src: /assets/img/politics-of-intimacy.jpg
 ---
 
 Please join Ulises, in partnership with Moore College of Art and Deisgn, for a screening of "The Politics of Intimacy" (Julie Gustafson, 1972, 52 minutes) and "Now" (Lynda Benglis, 1973, 12 minutes) with an introduction by Jesse Pires, Program Curator at International House Philadelphia.

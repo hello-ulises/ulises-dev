@@ -5,7 +5,8 @@ event_display_date: Saturday, July 16, 2022 from 12–6pm
 tags:
   - events
 published: true
-featured_img: /assets/img/ulises-sale_ig_01-06.jpg
+featured_img:
+  src: /assets/img/ulises-sale_ig_01-06.jpg
 ---
 
 Ulises in collaboration with Icebox Project Space and FORTUNE presents the Big Summer Book Sale! Come for the sale and stay for the snacks, drinks, and good afternoon vibes featuring DJ Rana Ransom.

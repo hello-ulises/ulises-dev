@@ -6,5 +6,6 @@ categories: left
 tags:
   - events
 published: true
-featured_img: /assets/img/peace_small.png
+featured_img:
+  src: /assets/img/peace_small.png
 ---

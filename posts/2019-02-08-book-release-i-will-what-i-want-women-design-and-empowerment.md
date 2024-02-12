@@ -5,7 +5,8 @@ title: "Book Release: I Will What I Want: Women, Design, and Empowerment"
 tags:
   - events
 event_display_date: "Saturday, February 16, 2–4PM"
-featured_img: /assets/img/51036544_2077928858957338_5925207615930892288_n.jpg
+featured_img:
+  src: /assets/img/51036544_2077928858957338_5925207615930892288_n.jpg
 ---
 
 The book "I Will What I Want: Women, Design, and Empowerment" accompanied a 2018 exhibition of the same name, which was presented in New York City and Mexico City. In it, design curators Jimena Acosta Romero and Michelle Millar Fisher explore the complex and contradictory role that design has played in shaping women's reproductive agencies since the mid-twentieth century, through second wave feminism, to the non-binary intersections of the present.

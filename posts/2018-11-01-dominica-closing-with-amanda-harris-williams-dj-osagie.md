@@ -5,7 +5,8 @@ title: Dominica Closing with Mandy Harris Williams + DJ Osagie
 event_display_date: "Sunday, November 4, 2–6 pm"
 tags:
   - events
-featured_img: /assets/img/IMG_6688.JPG
+featured_img:
+  src: /assets/img/IMG_6688.JPG
 ---
 
 Celebrate the closing of our second of three publisher residents for Publishing as Practice: [Martine Syms](http://martinesy.ms/) has operated through [Dominica Publishing](http://dominicapublishing.com/). The event will launch with a workshop with LA/NOLA/NYC-based artist [Mandy Harris Williams](https://www.instagram.com/idealblackfemale) and continue with a set from beloved local DJ, [Osagie OG](https://soundcloud.com/osagiebeats). Discussion, beats, drinks, and snacks.

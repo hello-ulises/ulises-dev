@@ -6,7 +6,8 @@ event_display_date: "Saturday, March 4, 2017, 6:30–8PM"
 tags:
   - events
   - intimacy
-featured_img: /assets/img/badlands_no5_i_would_do_anything_for_love_2.jpg
+featured_img:
+  src: /assets/img/badlands_no5_i_would_do_anything_for_love_2.jpg
 ---
 
 Authors Al Bedell and Larissa Pham will be reading excerpts from their short erotic fiction published by Badlands Unlimited and part of the "New Lovers" series. Each story has its own unique take on relationships, intimacy, and sex, as well as the complexities that bedevil contemporary life and culture today.

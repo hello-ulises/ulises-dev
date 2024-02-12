@@ -6,7 +6,8 @@ event_display_date: "Sunday, May 7, 2017, 4:00–6:00PM"
 tags:
   - events
   - intimacy
-featured_img: /assets/img/18274858_1358834817533416_4529206522363639203_n.jpg
+featured_img:
+  src: /assets/img/18274858_1358834817533416_4529206522363639203_n.jpg
 ---
 
 Join us at Ulises to celebrate the release of 3 new zines. "Leap of Faith" by Isaac Tin Wei Lin, "Two Way Mirror" by Clark Mizono, and "The Grand Inquisitor" by Fyodor Dostoyevsky with illustrations by Zoe Axelrod and Geoffrey KixMiller, are the first publications produced by High Tide and we are excited to share them with you.

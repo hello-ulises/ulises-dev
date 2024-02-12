@@ -6,7 +6,8 @@ event_display_date: "Tuesday, October 10, 6–8PM"
 tags:
   - events
   - migrations
-featured_img: /assets/img/index.jpeg
+featured_img:
+  src: /assets/img/index.jpeg
 ---
 
 "We are all tied to more than one country. The multilaterally shaped phenomenon of migration cannont be solved unilaterally, or else it generates a vulnerable reality for migrants. Implementing universal rights is essential. The right to be inlcluded belongs to everyone."

@@ -5,7 +5,8 @@ title: "Bio: Artists’ Canceled Texts and the World Wide Web"
 tags:
   - events
 event_display_date: "Saturday, October 27,  6pm"
-featured_img: /assets/img/Bio_Cover-2.gif
+featured_img:
+  src: /assets/img/Bio_Cover-2.gif
 ---
 
 Bio: Artists’ Canceled Texts and the World Wide Web,

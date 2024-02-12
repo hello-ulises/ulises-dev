@@ -5,7 +5,8 @@ title: "Xaviera Simmons, Superunknown (Alive In The)"
 tags:
   - events
   - migrations
-featured_img: /assets/img/_MG_0865.jpg
+featured_img:
+  src: /assets/img/_MG_0865.jpg
 ---
 
 Xaviera Simmons, "Superunknown (Alive In The)," 2010.

@@ -6,7 +6,8 @@ event_display_date: "Sunday, January 28, 2–4PM"
 tags:
   - events
   - education
-featured_img: /assets/img/26840783_1602674933149402_8425449545268900409_o.jpg
+featured_img:
+  src: /assets/img/26840783_1602674933149402_8425449545268900409_o.jpg
 ---
 
 How do we read? Why do we read? With whom? When and where?

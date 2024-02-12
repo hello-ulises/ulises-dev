@@ -6,7 +6,8 @@ event_display_date: "Saturday, January 27, 2–3:30PM"
 tags:
   - events
   - education
-featured_img: /assets/img/26805024_1601924936557735_4792805289535588420_n.jpg
+featured_img:
+  src: /assets/img/26805024_1601924936557735_4792805289535588420_n.jpg
 ---
 
 Join us for the launch of "Muriel Cooper" by David Reinfurt and Robert Wiesenberger along with a lively discussion between author David Reinfert, designer Mark Owens, and Katie Reilly, William T. Ranney Director of Publishing at Philadelphia Museum of Art. [RSVP](https://www.facebook.com/events/191290224948844/?notif_t=plan_user_joined&notif_id=1516459366897379)

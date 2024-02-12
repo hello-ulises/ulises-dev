@@ -5,7 +5,8 @@ title: NY Art Book Fair
 tags:
   - events
 event_display_date: "September 19–22, 2019"
-featured_img: /assets/img/IMG_3634.jpg
+featured_img:
+  src: /assets/img/IMG_3634.jpg
 ---
 
 Ulises Location: N37 (2nd Floor)

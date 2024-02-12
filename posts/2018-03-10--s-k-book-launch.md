@@ -6,7 +6,8 @@ event_display_date: "Sunday, February 11, 2–4PM"
 tags:
   - events
   - education
-featured_img: /assets/img/27500209_10155333277445872_8427404642788443_o (1).jpg
+featured_img:
+  src: /assets/img/27500209_10155333277445872_8427404642788443_o (1).jpg
 ---
 
 Join Ulises for a book launch and conversation for "Àsìkò: On the Future of Artistic and Curatorial Pedagogies in Africa" with the publication's editorial director Stephanie Baptist and designer Nontsikelelo Mutiti.

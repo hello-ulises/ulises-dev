@@ -4,7 +4,8 @@ published: true
 title: "A Certain Kind of Space: How We Sustain Each Other"
 tags:
   - events
-featured_img: /assets/img/_MG_6884 (1).jpg
+featured_img:
+  src: /assets/img/_MG_6884 (1).jpg
 ---
 
 A Certain Kind of Space: How We Sustain Each Other was part of Common Field's 2020 Online Convening. [Watch the video here](https://www.commonfield.org/convenings/3248/documentation/4170/a-certain-kind-of-space-how-we-sustain-each-other)!

@@ -5,7 +5,8 @@ title: 'Carmen Winant''s "My Birth": Book Launch + Experimental Lecture'
 tags:
   - events
 event_display_date: "Thursday, March 7, 6:30–8:30PM"
-featured_img: /assets/img/CarmenWinant.jpg
+featured_img:
+  src: /assets/img/CarmenWinant.jpg
 ---
 
 Please join Ulises for an experimental lecture/book launch by artist and writer [Carmen Winant](http://carmenwinant.com/).

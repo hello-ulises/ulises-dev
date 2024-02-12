@@ -5,7 +5,8 @@ published: true
 title: "Dear Reader: A Voice and Nothing More"
 tags:
   - events
-featured_img: /assets/img/10-carrion_thumb-2.jpg
+featured_img:
+  src: /assets/img/10-carrion_thumb-2.jpg
 ---
 
 Join Ulises for a book discussion on Mladen Dolars's text "A Voice and Nothing More." This event is the first in a new reading group series from Ulises entitled "Dear Reader." The reading for this session is the introduction to "A Voice and Nothing More" found in the link below.

@@ -5,7 +5,8 @@ title: Reza Abdoh’s Showtapes and Short Films
 tags:
   - events
 event_display_date: "Wednesday, December 5,  6pm"
-featured_img: /assets/img/46984668_1984830651600493_4508748683273043968_o.jpg
+featured_img:
+  src: /assets/img/46984668_1984830651600493_4508748683273043968_o.jpg
 ---
 
 "Sleeping With the Devil," 1988. USA. Directed by Reza Abdoh

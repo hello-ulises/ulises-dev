@@ -5,7 +5,8 @@ title: "Michael C. Vazquez: Surrealist Self-Fashioning"
 event_display_date: "Sunday, January 27, 2–4pm"
 tags:
   - events
-featured_img: /assets/img/50276847_2060641054019452_3595583347029442560_o.jpg
+featured_img:
+  src: /assets/img/50276847_2060641054019452_3595583347029442560_o.jpg
 ---
 
 Image: Colette Omogbai, "Agony," 1963. Oil on Hardboard

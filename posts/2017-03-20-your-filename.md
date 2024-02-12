@@ -4,5 +4,6 @@ published: true
 title: ""
 tags:
   - events
-featured_img: /assets/img/DSCF5080.jpeg
+featured_img:
+  src: /assets/img/DSCF5080.jpeg
 ---

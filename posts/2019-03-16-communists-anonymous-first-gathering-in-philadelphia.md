@@ -5,7 +5,8 @@ title: "Communists Anonymous: First Gathering in Philadelphia"
 event_display_date: "Thursday, March 21, 7pm"
 tags:
   - events
-featured_img: /assets/img/54731340_2134431356640421_3886286576371630080_o.jpg
+featured_img:
+  src: /assets/img/54731340_2134431356640421_3886286576371630080_o.jpg
 ---
 
 Join the first gathering of Communists Anonymous in Philadelphia, a celebration of the constitutive book "Solution 275–294: Communists Anonymous" (edited by Ingo Niermann and Joshua Simon, Sternberg Press, 2017), with Hammam Aldouri, Mark Johnson, Pavel Khazanov, Kate Kraczon, Marina McDougall Vella, Joshua Simon, Helen Stuhr-Rommereim, and everyone interested in sharing their relations to communisms present, past, and future.

@@ -6,7 +6,8 @@ tags:
   - event
   - featured
 published: true
-featured_img: /assets/img/screen-shot-2023-03-03-at-10.31.59-pm.png
+featured_img:
+  src: /assets/img/screen-shot-2023-03-03-at-10.31.59-pm.png
 ---
 
 [Multiple Formats: Contemporary Art Book Symposium](https://multipleformats.cargo.site/) weaves together conversations about artist books and higher education, pedagogical practices involving artist books, artist advocacy, and artist book distribution, collection, and access. Intended to be an elastic and inclusive forum for discussions about artist book publishing, Multiple Formats pays particular attention to publishing by graphic designers, the use and creation of artist books in visual arts programs, publishing as a personal and collaborative process, and other topics of interest.

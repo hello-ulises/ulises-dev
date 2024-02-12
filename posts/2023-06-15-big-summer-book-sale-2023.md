@@ -8,7 +8,8 @@ tags:
   - events
   - featured
 published: true
-featured_img: /assets/img/ulises-2023_production-files_02-02.jpg
+featured_img:
+  src: /assets/img/ulises-2023_production-files_02-02.jpg
 ---
 
 It’s almost time for this year’s BIG SUMMER BOOK SALE hosted by Ulises, Icebox Project Space, and FORTUNE with the support of Penn Treaty Special Services District!

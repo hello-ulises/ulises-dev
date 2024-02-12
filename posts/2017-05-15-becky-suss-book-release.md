@@ -5,7 +5,8 @@ title: Becky Suss Book Release
 event_display_date: "Saturday, May 20, 2017, 3–5PM"
 tags:
   - events
-featured_img: /assets/img/becksuss-book-release.jpg
+featured_img:
+  src: /assets/img/becksuss-book-release.jpg
 ---
 
 Join Ulises for a [book launch](https://www.facebook.com/events/475958902735805/) with artist Becky Suss. Enjoy libations, snacks and company celebrating the release of the ICA exhibition catalogue "Beck Suss."

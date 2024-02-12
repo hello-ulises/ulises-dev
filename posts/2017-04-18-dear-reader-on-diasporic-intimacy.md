@@ -6,7 +6,8 @@ tags:
   - intimacy
   - events
 event_display_date: "Tuesday, April 25, 2017, 6:30PM–8PM"
-featured_img: /assets/img/0425-DearReader.jpg
+featured_img:
+  src: /assets/img/0425-DearReader.jpg
 ---
 
 "Diasporic intimacy does not promise an unmediated emotional fusion, but only a precarious affection-- no less deep, yet aware of its transience." - Svetlana Boym

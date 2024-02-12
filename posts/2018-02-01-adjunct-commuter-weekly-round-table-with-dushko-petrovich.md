@@ -6,7 +6,8 @@ event_display_date: "Saturday, February 3, 2–4PM"
 tags:
   - education
   - events
-featured_img: /assets/img/Adjunct.jpg
+featured_img:
+  src: /assets/img/Adjunct.jpg
 ---
 
 Educator, artist, and publisher of [Adjunct Commuter Weekly](https://adjunctcommuterweekly.com/), Dushko Petrovich, will discuss life on the art and academic road in a round table with Jennie Shanker, Gregory Laynor, and Daniel Pieczkolon. [RSVP](https://www.facebook.com/events/181343182466723/)

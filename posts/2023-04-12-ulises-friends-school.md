@@ -6,7 +6,8 @@ tags:
   - projects
   - featured
 published: true
-featured_img: /assets/img/ups_fb_banner.jpeg
+featured_img:
+  src: /assets/img/ups_fb_banner.jpeg
 ---
 
 April 19-21, Ulises will be in Utrecht leading Ulises Friends School, a series of workshops that invite participants to investigate the generative potential of friendship. In simplest terms, Ulises is a bookshop and project space dedicated to artists' books and independent art publications. In the truest terms, Ulises is a collection of musings, longings, and assorted activities brought together by a group of friends. This is to say that friendship is the medium, ethos, and structure of Ulises. \

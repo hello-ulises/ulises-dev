@@ -5,7 +5,8 @@ event_display_date: Friday, March 25, 2022 at 7pm
 tags:
   - events
 published: true
-featured_img: /assets/img/out_loud_web.jpeg
+featured_img:
+  src: /assets/img/out_loud_web.jpeg
 ---
 
 Ulises is excited to welcome [Wendy’s Subway](https://wendyssubway.com/) and [Futurepoem](https://www.futurepoem.com/), who will present readings by Vidhu Aggarwal, Mirene Arsanios, Imani Elizabeth Jackson, Jessica Laser, and Ronaldo V. Wilson on the occasion of the 2022 AWP Conference (Association of Writers and Writing Programs).  The program also includes a screening of recent videos by Wendy’s Subway authors JJJJJerome Ellis, Jaamil Olawale Kosoko, and Shala Miller.

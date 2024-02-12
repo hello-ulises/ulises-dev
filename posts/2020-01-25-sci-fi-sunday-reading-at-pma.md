@@ -5,7 +5,8 @@ title: "Sci-Fi Sunday, Reading"
 tags:
   - events
 event_display_date: "Sunday, January 26, 2020,  2–3pm"
-featured_img: /assets/img/IMG_5664.JPG
+featured_img:
+  src: /assets/img/IMG_5664.JPG
 ---
 
 Representing Ulises for [Sci-Fi Sunday at the PMA](https://philamuseum.org/calendar/event/sci-fi-sunday-ulises), poet and artist Anaïs Duplan will share some of his favorite passages from Colson Whitehead’s The Intuitionist. The Sci-Fi Sunday reading series is in conjunction with the exhibition “Designs for Different Futures.”

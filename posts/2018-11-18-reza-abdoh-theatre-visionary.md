@@ -5,7 +5,8 @@ title: "Reza Abdoh: Theatre Visionary"
 event_display_date: "Thursday, November 29, 7–8:45pm"
 tags:
   - events
-featured_img: /assets/img/RezaAbdoh.jpg
+featured_img:
+  src: /assets/img/RezaAbdoh.jpg
 ---
 
 Free event: [Ticket reservations are suggested](https://lightboxfilmcenter.org/programs/reza-abdoh-theatre-visionary?fbclid=IwAR0xeKPyG0W6CLQXCBP-RkqZJErNSmJWZq7xG5kzii6w_pUn0ZsF_S2_2Qs)

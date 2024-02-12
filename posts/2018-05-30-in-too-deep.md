@@ -5,7 +5,8 @@ title: 'IN TOO DEEP "Walking & Talking" '
 tags:
   - events
 event_display_date: "Thursday, May 31, 7:30–10PM"
-featured_img: /assets/img/cyqtjcDkxawx.jpg
+featured_img:
+  src: /assets/img/cyqtjcDkxawx.jpg
 ---
 
 A Movie Evening with YOWIE and mustarrrrd at Ulises! [RSVP](https://www.facebook.com/events/106847163534723/)

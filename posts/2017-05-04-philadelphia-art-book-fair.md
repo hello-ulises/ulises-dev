@@ -5,7 +5,8 @@ title: Philadelphia Art Book Fair
 tags:
   - events
   - intimacy
-featured_img: /assets/img/16998808_1089515417860400_7652733978941710275_n-680x680.jpg
+featured_img:
+  src: /assets/img/16998808_1089515417860400_7652733978941710275_n-680x680.jpg
 ---
 
 Friday, May 5: 12:00pm-8:00pm

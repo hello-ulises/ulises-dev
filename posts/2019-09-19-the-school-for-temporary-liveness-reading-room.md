@@ -6,7 +6,8 @@ event_display_date: "September 25 – October 2, 2019"
 tags:
   - projects
   - featured
-featured_img: /assets/img/Screen Shot 2019-09-19 at 2.29.22 PM.png
+featured_img:
+  src: /assets/img/Screen Shot 2019-09-19 at 2.29.22 PM.png
 ---
 
 [The School for Temporary Liveness](https://temporaryliveness.org/) is a week-long series of performances, workshops, talks, conversations and new formats for study inhabiting the poetic frame of a school. The School comprises three zones of encounter—The Classroom, The Library, and Study Hall—each of which engage different modes of viewing and participation.

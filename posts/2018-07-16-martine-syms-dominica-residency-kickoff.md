@@ -5,7 +5,8 @@ title: Martine Syms/Dominica Residency Kickoff
 tags:
   - events
 event_display_date: "Sunday, July 22, 2–6pm"
-featured_img: /assets/img/11_SYMS_Notes-On-Gesture 183.jpg
+featured_img:
+  src: /assets/img/11_SYMS_Notes-On-Gesture 183.jpg
 ---
 
 Martine Syms, still from "Notes on Gesture," 2015

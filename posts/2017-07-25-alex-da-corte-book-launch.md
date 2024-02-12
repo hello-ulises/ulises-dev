@@ -5,7 +5,8 @@ title: Alex da Corte Book Launch
 event_display_date: "Saturday, July 29, 2017, 3-6PM"
 tags:
   - events
-featured_img: /assets/img/alexdacorte.jpg
+featured_img:
+  src: /assets/img/alexdacorte.jpg
 ---
 
 Book launch and barbecue cookout with [Alex Da Corte](http://alexdacorte.com/) celebrating the release of "Slow Graffiti" and "50 Wigs," two recent publications of the artist's work.

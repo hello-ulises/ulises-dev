@@ -6,7 +6,8 @@ tags:
   - events
   - migrations
 event_display_date: "Saturday, August 26, 2017, 7PM"
-featured_img: /assets/img/20988180_1468274746589422_4522942742685998601_o.jpg
+featured_img:
+  src: /assets/img/20988180_1468274746589422_4522942742685998601_o.jpg
 ---
 
 Book launch for _The Obvious Earth_, an essay collection from Carville Annex Press in San Francisco. Join us for an evening of sounds/sentences with Caren Beilin, Tristan Dahn and Nabil Kashyap. Snacks are likely. Come!

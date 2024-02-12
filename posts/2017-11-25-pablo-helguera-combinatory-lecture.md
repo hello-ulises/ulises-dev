@@ -6,7 +6,8 @@ tags:
   - events
   - education
 event_display_date: "Friday, December 1, 6–8PM"
-featured_img: /assets/img/PabloHelguera.jpg
+featured_img:
+  src: /assets/img/PabloHelguera.jpg
 ---
 
 Please join Ulises, in partnership with Graduate Studies at Moore College of Art and Design, for a [combinatory lecture](https://www.facebook.com/events/132015904130410/?notif_t=plan_user_associated&notif_id=1511615421012705) with multidisciplinary artist and educator Pablo Helguera organized in conjunction with Ulises’ current quarterly theme "Education." This performance workshop, which incorporates aspects of public speaking and education, consists in the collective writing and presenting of a co-authored lecture. No previous experience of any kind is needed. Different versions of the Combinatory lecture have been presented at the MUAC, Mexico City, Neon Gallery in Bologna Italy, Museo del Hombre in Gran Canaria, and many other locations.

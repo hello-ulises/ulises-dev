@@ -6,7 +6,8 @@ tags:
   - intimacy
   - events
 event_display_date: "Friday, April 14, 2017, 7PM – 9PM"
-featured_img: /assets/img/KHSG_11_Lawrence_Abu_Hamdan_2015.jpeg
+featured_img:
+  src: /assets/img/KHSG_11_Lawrence_Abu_Hamdan_2015.jpeg
 ---
 
 In response to Ulises’ current quarterly, [Lawrence Abu Hamdan](http://lawrenceabuhamdan.com/) presents two works that cast a shadow on the theme of intimacy. "Saydnaya (the missing 19db)," recently commissioned for Sharjah Biennial 13, and "Language Gulf in the Shouting Valley," (2013) contour intimacies of violence, separation, and conflict. The works communicate, in whispers and shouts, bonds nevertheless formed and performed in difficult – murderous – terrains: the prison, the courtroom, and the border. Venturing considerations of intimacy in relation to community, citizenship, and the state, this event also aims to question some of the presumed conditions of intimacy: proximity, disclosure, transparency, reciprocal knowledge, truth. This event is co-organized with Ulises by Kirsten Gill, who will also give an introduction. [RSVP](https://www.facebook.com/events/633462733505988/)

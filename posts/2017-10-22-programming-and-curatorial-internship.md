@@ -4,7 +4,8 @@ published: false
 title: Programming and Curatorial Internship
 tags:
   - events
-featured_img: /assets/img/Internship.jpg
+featured_img:
+  src: /assets/img/Internship.jpg
 ---
 
 Ulises is seeking talented people of all backgrounds to apply for our Programming and Curatorial Internship. If you are a college student or recent grad interested in learning more about arts publishing or arts administration, and its intersection with retail, or are considering a career in the arts, we encourage you to apply. The internship offers training and direct experience working in a growing contemporary arts space and bookstore environment.

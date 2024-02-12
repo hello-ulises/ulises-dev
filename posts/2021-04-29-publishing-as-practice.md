@@ -5,7 +5,8 @@ event_display_date: Hardworking Goodlooking, Martine Syms/Dominica, Bidoun
 tags:
   - shop
 published: true
-featured_img: /assets/img/pasp.gif
+featured_img:
+  src: /assets/img/pasp.gif
 ---
 
 Edited by Ulises: Kayla Romberger, Gee Wesley, Nerissa Cooney, Lauren Downing, and Ricky Yanas\

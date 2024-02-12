@@ -6,7 +6,8 @@ event_display_date: "Thursday, February 8"
 tags:
   - events
   - education
-featured_img: /assets/img/PastedGraphic-1.png
+featured_img:
+  src: /assets/img/PastedGraphic-1.png
 ---
 
 Support Workshop: 1:30-4:00pm at the ICA

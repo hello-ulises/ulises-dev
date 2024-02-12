@@ -5,7 +5,8 @@ title: "Nato Thompson: Culture As Weapon"
 tags:
   - events
 event_display_date: "Sunday, February 19, 2017, 4PM"
-featured_img: /assets/img/Nato-3.jpg
+featured_img:
+  src: /assets/img/Nato-3.jpg
 ---
 
 Book talk with Nato Thompson on his new book,"Culture as Weapon: The Art of Influence in Everyday Life." Thompson is the artistic director of the nonprofit arts organization Creative Time, which commissions and supports socially engaged works of art.

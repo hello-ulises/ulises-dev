@@ -6,7 +6,8 @@ tags:
   - events
   - intimacy
 event_display_date: "Saturday, March 18, 2017"
-featured_img: /assets/img/love-optimized-workshop-animation.gif
+featured_img:
+  src: /assets/img/love-optimized-workshop-animation.gif
 ---
 
 Workshop: Saturday 2–5pm

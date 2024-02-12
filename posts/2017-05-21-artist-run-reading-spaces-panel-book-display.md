@@ -5,7 +5,8 @@ title: "Artist-Run Reading Spaces, Panel & Book Display"
 event_display_date: "Sunday, June 4, 3:30–5PM"
 tags:
   - events
-featured_img: /assets/img/18556623_310192286079730_3304069030822008828_o.jpg
+featured_img:
+  src: /assets/img/18556623_310192286079730_3304069030822008828_o.jpg
 ---
 
 [Artist-Run Reading Spaces](https://www.facebook.com/events/170205546844757/?acontext=%7B%22ref%22%3A%223%22%2C%22ref_newsfeed_story_type%22%3A%22regular%22%2C%22feed_story_type%22%3A%22361%22%2C%22action_history%22%3A%22null%22%7D) is part of BABZ FAIR 2017 Extended Program Series

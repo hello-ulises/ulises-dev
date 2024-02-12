@@ -6,7 +6,8 @@ tags:
   - events
   - intimacy
 event_display_date: "Saturday, February 11, 2017"
-featured_img: /assets/img/15. HAYES-2.jpg
+featured_img:
+  src: /assets/img/15. HAYES-2.jpg
 ---
 
 [RSVP](https://www.facebook.com/events/604532113075419/){:target="\_blank"}

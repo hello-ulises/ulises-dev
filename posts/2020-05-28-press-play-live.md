@@ -5,7 +5,8 @@ title: Press Play — LIVE!
 tags:
   - events
 event_display_date: "Sunday, May 31, 2–4PM"
-featured_img: /assets/img/press_play_flyer (3).jpg
+featured_img:
+  src: /assets/img/press_play_flyer (3).jpg
 ---
 
 [Register](https://moorecad.zoom.us/meeting/register/tJUodOisqDMoG9wVU75dJv8fwr4yl5tF7oh-)
