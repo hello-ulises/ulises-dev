@@ -65,7 +65,7 @@
 
   .p-post-page__label,
   .p-post-page__value {
-    @include get-map-values($serif);
+    @include get-map-values($sans);
     margin-bottom: $spacing-01;
 
     @include breakpoint("medium") {

@@ -48,7 +48,7 @@
       @include get-map-values($serif);
       padding-top: $spacing-01;
       font-size: 1.75rem;
-      text-transform: uppercase;
+      text-transform: capitalize;
     }
   }
 }
