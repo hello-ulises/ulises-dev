@@ -55,6 +55,8 @@ function renderSearchResults(results) {
   });
 
   if (results.length) {
+    document.querySelector(".p-search__results-label span").innerHTML =
+      results.length + " ";
     document.querySelector(".p-search__wrapper").classList.toggle("no-results");
   }
 }
@@ -183,6 +185,11 @@ function handleMutation(
 
   // handle home route
   if (route.pathname == "/") {
+    // toggle splash
+    const splash = document.querySelector(".splash");
+    splash.classList.remove("leaving");
+    setTimeout(() => document.body.removeChild(splash), 2250);
+
     // handle header madlib
     const madlib = document.querySelector(".madlib__list");
     let nounCount = madlib.children.length;

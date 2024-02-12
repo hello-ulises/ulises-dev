@@ -12,6 +12,9 @@
 {% endcapture %}
 
   <body class="l-default {{ pageClass | strip | prepend: 'p-' }} {{ tags | itemType }}">
+  {% if title == "home" %}
+    {% include "splash.html" %}
+  {% endif %}
   {% include "navigation.html" %}
   <div class="main-wrapper">
   <main>
